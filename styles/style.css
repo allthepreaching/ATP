@@ -167,11 +167,11 @@ h6 {
 }
 a,
 a i {
-  -webkit-transition: color .3s, background-color .3s;
-  -moz-transition: color .3s, background-color .3s;
-  -ms-transition: color .3s, background-color .3s;
-  -o-transition: color .3s, background-color .3s;
-  transition: color .3s, background-color .3s;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  -moz-transition: color 0.3s, background-color 0.3s;
+  -ms-transition: color 0.3s, background-color 0.3s;
+  -o-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
 }
 .android-browser-4_3minus a,
 .android-browser-4_3minus a i {
@@ -267,11 +267,11 @@ input.button {
 input,
 textarea {
   outline: 1px solid;
-  -webkit-transition: outline-color .2s;
-  -moz-transition: outline-color .2s;
-  -ms-transition: outline-color .2s;
-  -o-transition: outline-color .2s;
-  transition: outline-color .2s;
+  -webkit-transition: outline-color 0.2s;
+  -moz-transition: outline-color 0.2s;
+  -ms-transition: outline-color 0.2s;
+  -o-transition: outline-color 0.2s;
+  transition: outline-color 0.2s;
 }
 .android-browser-4_3minus input,
 .android-browser-4_3minus textarea {
@@ -318,7 +318,7 @@ textarea {
   font-size: 11px;
 }
 .counter .count {
-  font-family: 'Helvetica', Arial, Sans-serif;
+  font-family: "Helvetica", Arial, Sans-serif;
 }
 .font-weight-100 {
   font-weight: 100;
@@ -530,7 +530,12 @@ textarea {
 .android-browser-4_3minus .state2 #top-nav .navbar-header,
 .android-browser-4_3minus .state1.ext-nav-show #top-nav .navbar-header,
 .android-browser-4_3minus .state2 #top-nav .dropdown-menu > li > a,
-.android-browser-4_3minus .state1.ext-nav-show #top-nav .dropdown-menu > li > a {
+.android-browser-4_3minus
+  .state1.ext-nav-show
+  #top-nav
+  .dropdown-menu
+  > li
+  > a {
   transition: none;
   -webkit-transition: none;
 }
@@ -740,7 +745,7 @@ body {
   text-align: right;
   margin-right: 5px;
   margin-left: -25px;
-  content: '[';
+  content: "[";
   -webkit-transform: translateX(20px);
   -moz-transform: translateX(20px);
   transform: translateX(20px);
@@ -750,7 +755,7 @@ body {
   text-align: left;
   margin-left: 5px;
   margin-right: -25px;
-  content: ']';
+  content: "]";
   -webkit-transform: translateX(-20px);
   -moz-transform: translateX(-20px);
   transform: translateX(-20px);
@@ -836,11 +841,11 @@ body {
   transition: all 0.6s;
   width: 22px;
   height: 2px;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .android-browser-4_3minus .menu-toggle span {
   transition: none;
@@ -852,7 +857,7 @@ body {
 }
 .menu-toggle span:before,
 .menu-toggle span:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -864,11 +869,11 @@ body {
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0);
   backface-visibility: hidden;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .android-browser-4_3minus .menu-toggle span:before,
 .android-browser-4_3minus .menu-toggle span:after {
@@ -1115,11 +1120,11 @@ body {
   transition: all 0.6s;
   width: 40px;
   height: 40px;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
   margin: 25px;
 }
 .android-browser-4_3minus .cross {
@@ -1132,7 +1137,7 @@ body {
 }
 .cross:before,
 .cross:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1154,11 +1159,11 @@ body {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .android-browser-4_3minus .cross:before,
 .android-browser-4_3minus .cross:after {
@@ -1190,11 +1195,11 @@ body {
   transition: all 0.6s;
   width: 20px;
   height: 40px;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
   margin: 25px;
 }
 .android-browser-4_3minus .next {
@@ -1207,7 +1212,7 @@ body {
 }
 .next:before,
 .next:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1227,11 +1232,11 @@ body {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .android-browser-4_3minus .next:before,
 .android-browser-4_3minus .next:after {
@@ -1265,11 +1270,11 @@ body {
   transition: all 0.6s;
   width: 20px;
   height: 40px;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
   margin: 25px;
 }
 .android-browser-4_3minus .previos {
@@ -1282,7 +1287,7 @@ body {
 }
 .previos:before,
 .previos:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1302,11 +1307,11 @@ body {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .android-browser-4_3minus .previos:before,
 .android-browser-4_3minus .previos:after {
@@ -1730,11 +1735,11 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 .loader {
   position: fixed;
@@ -1774,11 +1779,11 @@ body {
   visibility: visible;
 }
 .loader.hided {
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -ms-transition: all .2s;
-  -o-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 .android-browser-4_3minus .loader.hided {
   transition: none;
@@ -2465,7 +2470,7 @@ body {
 }
 .circle:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -2508,7 +2513,7 @@ body {
 }
 .circle.big:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -2551,7 +2556,7 @@ body {
 }
 .circle.small:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -2726,7 +2731,7 @@ html.mobile .vimeo-bg {
   left: 0;
   width: 100%;
   height: 100%;
-  content: ' ';
+  content: " ";
   z-index: 0;
 }
 .process .process-row .process-step .process-box i {
@@ -2762,7 +2767,7 @@ html.mobile .vimeo-bg {
   text-align: right;
   margin-right: 5px;
   margin-left: -25px;
-  content: '[';
+  content: "[";
   -webkit-transform: translateX(20px);
   -moz-transform: translateX(20px);
   transform: translateX(20px);
@@ -2772,7 +2777,7 @@ html.mobile .vimeo-bg {
   text-align: left;
   margin-left: 5px;
   margin-right: -25px;
-  content: ']';
+  content: "]";
   -webkit-transform: translateX(-20px);
   -moz-transform: translateX(-20px);
   transform: translateX(-20px);
@@ -2830,7 +2835,7 @@ html.mobile .vimeo-bg {
   -webkit-transition: none;
 }
 .non-mobile .button:before {
-  content: '';
+  content: "";
   position: absolute;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -3008,11 +3013,11 @@ html.mobile .vimeo-bg {
 .button,
 .list-group-item,
 .icon-bar {
-  -webkit-transition: color .3s, background-color .3s;
-  -moz-transition: color .3s, background-color .3s;
-  -ms-transition: color .3s, background-color .3s;
-  -o-transition: color .3s, background-color .3s;
-  transition: color .3s, background-color .3s;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  -moz-transition: color 0.3s, background-color 0.3s;
+  -ms-transition: color 0.3s, background-color 0.3s;
+  -o-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
 }
 .android-browser-4_3minus .button,
 .android-browser-4_3minus .list-group-item,
@@ -3055,11 +3060,16 @@ input.button {
   -ms-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  -webkit-transition-property: margin-top, margin-bottom, padding-top, padding-bottom, background-color;
-  -moz-transition-property: margin-top, margin-bottom, padding-top, padding-bottom, background-color;
-  -ms-transition-property: margin-top, margin-bottom, padding-top, padding-bottom, background-color;
-  -o-transition-property: margin-top, margin-bottom, padding-top, padding-bottom, background-color;
-  transition-property: margin-top, margin-bottom, padding-top, padding-bottom, background-color;
+  -webkit-transition-property: margin-top, margin-bottom, padding-top,
+    padding-bottom, background-color;
+  -moz-transition-property: margin-top, margin-bottom, padding-top,
+    padding-bottom, background-color;
+  -ms-transition-property: margin-top, margin-bottom, padding-top,
+    padding-bottom, background-color;
+  -o-transition-property: margin-top, margin-bottom, padding-top, padding-bottom,
+    background-color;
+  transition-property: margin-top, margin-bottom, padding-top, padding-bottom,
+    background-color;
 }
 .line:hover {
   margin-top: -10px;
@@ -3100,11 +3110,11 @@ input.button {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 .uppercase {
   text-transform: uppercase;
@@ -3277,14 +3287,14 @@ input.button {
   width: 100%;
   height: 2px;
   display: block;
-  content: '';
+  content: "";
   margin-top: 18px;
 }
 .bottom-line:after {
   width: 100%;
   height: 2px;
   display: block;
-  content: '';
+  content: "";
   margin-top: 18px;
 }
 .short-underline:after {
@@ -3338,7 +3348,7 @@ ul.simple li {
   text-align: -webkit-match-parent;
 }
 ul.simple li:before {
-  content: "-";
+  content: "";
   position: relative;
   left: -5px;
 }
@@ -3479,11 +3489,11 @@ ul.simple li:before {
   position: fixed;
   left: 50%;
   top: 100px;
-  transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   z-index: 2000;
 }
 .ajax-form-alert button {
@@ -3694,28 +3704,28 @@ body > .paper {
   top: 0;
   left: 0;
   background-repeat: repeat;
-  opacity: .8;
+  opacity: 0.8;
 }
 .pattern:before {
-  background: url('../images/pattern.png');
+  background: url("../images/pattern.png");
 }
 .pattern-dark-1:before {
-  background: url('../images/pattern-dark-1.png');
+  background: url("../images/pattern-dark-1.png");
 }
 .pattern-dark-2:before {
-  background: url('../images/pattern-dark-2.png');
+  background: url("../images/pattern-dark-2.png");
 }
 .pattern-dark-3:before {
-  background: url('../images/pattern-dark-3.png');
+  background: url("../images/pattern-dark-3.png");
 }
 .pattern-light-1:before {
-  background: url('../images/pattern-light-1.png');
+  background: url("../images/pattern-light-1.png");
 }
 .pattern-light-2:before {
-  background: url('../images/pattern-light-2.png');
+  background: url("../images/pattern-light-2.png");
 }
 .pattern-light-3:before {
-  background: url('../images/pattern-light-3.png');
+  background: url("../images/pattern-light-3.png");
 }
 /*==================================================================
 22. Bootstrap Elements / .lead, .pagination, .panel, .widget-tabs
@@ -3895,10 +3905,10 @@ ul.pagination li {
   display: inline-block;
 }
 .post .post-tags ul li:after {
-  content: ' . ';
+  content: " . ";
 }
 .post .post-tags ul li:last-child:after {
-  content: '';
+  content: "";
 }
 .post .comment-form {
   padding-bottom: 25px;
@@ -4340,11 +4350,11 @@ p {
   z-index: 1040;
   left: -1200px;
   font-size: 10px;
-  -webkit-transition: left .5s;
-  -moz-transition: left .5s;
-  -ms-transition: left .5s;
-  -o-transition: left .5s;
-  transition: left .5s;
+  -webkit-transition: left 0.5s;
+  -moz-transition: left 0.5s;
+  -ms-transition: left 0.5s;
+  -o-transition: left 0.5s;
+  transition: left 0.5s;
   pointer-events: none;
 }
 .android-browser-4_3minus #customize-panel {
@@ -4455,11 +4465,11 @@ p {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  -webkit-transition: opacity .3s;
-  -moz-transition: opacity .3s;
-  -ms-transition: opacity .3s;
-  -o-transition: opacity .3s;
-  transition: opacity .3s;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 .android-browser-4_3minus #customize-panel .custom-css {
   transition: none;
@@ -4770,4 +4780,3 @@ html {
 [dir="rtl"] .slick-next {
   left: auto;
 }
-

@@ -1,0 +1,15 @@
+.center-index-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-content-title {
+  margin-top: 0 !important ;
+}
+
+.container h6 {
+  display: flex;
+  justify-content: center;
+}

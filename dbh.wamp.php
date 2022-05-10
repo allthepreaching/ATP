@@ -1,17 +1,10 @@
 <?php
 
-// wamp
 $servername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
+$dbUsername = "admin";
+$dbPassword = ")*(&%^$@#!A";
 $dbName = "vidtest";
 $port = "3308";
-
-// atp
-// $servername = "localhost";
-// $dbUsername = "alltdjli_dev";
-// $dbPassword = "Um+2W=$-N_b+";
-// $dbName = "alltdjli_pas";
 
 $mysqli = mysqli_connect($servername, $dbUsername, $dbPassword, $dbName, $port);
 if (!$mysqli) {
