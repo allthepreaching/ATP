@@ -3,12 +3,13 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+node_modules
 
 # Other files and folders
 .settings/
 images/
 **/thumbs/
-/video
+video/
 
 # Executables
 *.swf
@@ -17,6 +18,7 @@ images/
 *.apk
 *.mp3
 *.mp4
+
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
