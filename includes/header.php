@@ -70,7 +70,8 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="../js/modal-new-search.js"></script>
 
-    <title>ALLthePreaching</title>
+    <!-- Title -->
+    <title>ALLthePREACHING</title>
 
 </head>
 
