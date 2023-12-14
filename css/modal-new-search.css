@@ -1,0 +1,63 @@
+/* Add this CSS code to your stylesheet */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 6px solid #f1f1f1;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  width: 70%; /* Set a width for the modal */
+  max-width: 600px; /* Set a max-width for the modal */
+}
+
+.modal-content p {
+  font-size: 3em;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  top: 350px;
+  right: 300px;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  z-index: 1001;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Responsive styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%; /* Increase the width of the modal on small screens */
+    font-size: 1.5em; /* Decrease the font size on small screens */
+  }
+}
