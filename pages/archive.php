@@ -9023,7 +9023,6 @@
     </div>
 </section>
 
-
 <!--        other section        -->
 <section class="colors-g page-transition non-preloading" id="other">
     <div class="container" data-animation="fadeInDown">
@@ -9097,7 +9096,6 @@
     </div>
 </section>
 
-
 <!--        music section menu      -->
 <section class="colors-g page-transition non-preloading" id="music">
     <div class="container" data-animation="fadeInDown">
@@ -9113,28 +9111,28 @@
         <hr>
         <div class="row">
             <div class="col-md-3">
-                <a href="#hymnsmp3">
+                <a href="#muhymns">
                     <h5>
                         hymns
                     </h5>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#othermusic">
+                <a href="#muother">
                     <h5>
                         other music
                     </h5>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#mpsalms">
+                <a href="#mupsalms">
                     <h5>
                         psalms
                     </h5>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fwbccol">
+                <a href="#mufwbccol">
                     <h5>
                         fwbc collection
                     </h5>
@@ -9145,9 +9143,8 @@
     </div>
 </section>
 
-
 <!--        music hymns      -->
-<section class="colors-g page-transition non-preloading" id="hymns">
+<section class="colors-g page-transition non-preloading" id="muhymns">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
@@ -9229,9 +9226,8 @@
     </div>
 </section>
 
-
 <!--        music other      -->
-<section class="colors-g page-transition non-preloading" id="othermusic">
+<section class="colors-g page-transition non-preloading" id="muother">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
@@ -9314,9 +9310,8 @@
     </div>
 </section>
 
-
 <!--        music psalms      -->
-<section class="colors-g page-transition non-preloading" id="mpsalms">
+<section class="colors-g page-transition non-preloading" id="mupsalms">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
@@ -9401,7 +9396,7 @@
 
 
 <!--        music fwbc collection  menu      -->
-<section class="colors-g page-transition non-preloading" id="fwbccol">
+<section class="colors-g page-transition non-preloading" id="mufwbccol">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
@@ -9420,28 +9415,28 @@
         <hr>
         <div class="row">
             <div class="col-md-3">
-                <a href="#fwbcvol1">
+                <a href="#mufwbcvol1">
                     <h5>
                         volume<br>1
                     </h5>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fwbcvol2">
+                <a href="#mufwbcvol2">
                     <h5>
                         volume<br>2
                     </h5>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fwbcvol3">
+                <a href="#mufwbcvol3">
                     <h5>
                         volume<br>3
                     </h5>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fwbcvol4">
+                <a href="#mufwbcvol4">
                     <h5>
                         volume<br>4
                     </h5>
@@ -9451,32 +9446,24 @@
         <hr>
         <div class="row">
             <div class="col-md-3">
-                <a href="#fwbcvol5">
+                <a href="#mufwbcvol5">
                     <h5>
                         volume<br>5
                     </h5>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fwbcvol6">
+                <a href="#mufwbcvol6">
                     <h5>
                         volume<br>6
                     </h5>
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fwbcvol6">
-                    <h5>
 
-                    </h5>
-                </a>
             </div>
             <div class="col-md-3">
-                <a href="#fwbcvol6">
-                    <h5>
 
-                    </h5>
-                </a>
             </div>
         </div>
         <hr>
@@ -9485,19 +9472,19 @@
 
 
 <!--        music fwbc collection vol 1      -->
-<section class="colors-g page-transition non-preloading" id="fwbcvol1">
+<section class="colors-g page-transition non-preloading" id="mufwbcvol1">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
         <h2><span class="highlight">volume 1</span></h2>
 
         <h6>
-            <a href="#fwbccol" class="hover-effect">
+            <a href="#mufwbccol"  class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
         <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/FWBC_Collection/Vol_1.zip" class="hover-effect">
+            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_1.zip" class="hover-effect">
                 for a zip file of volume 1 <span class="highlight">click here!</span>
             </a>
         </h6>
@@ -9570,19 +9557,19 @@
 
 
 <!--        music fwbc collection vol 2      -->
-<section class="colors-g page-transition non-preloading" id="fwbcvol2">
+<section class="colors-g page-transition non-preloading" id="mufwbcvol2">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
         <h2><span class="highlight">volume 2</span></h2>
 
         <h6>
-            <a href="#fwbccol" class="hover-effect">
+            <a href="#mufwbccol"  class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
         <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/FWBC_Collection/Vol_2.zip" class="hover-effect">
+            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_2.zip" class="hover-effect">
                 for a zip file of volume 2 <span class="highlight">click here!</span>
             </a>
         </h6>
@@ -9655,19 +9642,19 @@
 
 
 <!--        music fwbc collection vol 3      -->
-<section class="colors-g page-transition non-preloading" id="fwbcvol3">
+<section class="colors-g page-transition non-preloading" id="mufwbcvol3">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
         <h2><span class="highlight">volume 3</span></h2>
 
         <h6>
-            <a href="#fwbccol" class="hover-effect">
+            <a href="#mufwbccol"  class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
         <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/FWBC_Collection/Vol_3.zip" class="hover-effect">
+            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_3.zip" class="hover-effect">
                 for a zip file of volume 3 <span class="highlight">click here!</span>
             </a>
         </h6>
@@ -9740,19 +9727,19 @@
 
 
 <!--        music fwbc collection vol 4      -->
-<section class="colors-g page-transition non-preloading" id="fwbcvol4">
+<section class="colors-g page-transition non-preloading" id="mufwbcvol4">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
         <h2><span class="highlight">volume 4</span></h2>
 
         <h6>
-            <a href="#fwbccol" class="hover-effect">
+            <a href="#mufwbccol"  class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
         <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/FWBC_Collection/Vol_4.zip" class="hover-effect">
+            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_4.zip" class="hover-effect">
                 for a zip file of volume 4 <span class="highlight">click here!</span>
             </a>
         </h6>
@@ -9825,19 +9812,19 @@
 
 
 <!--        music fwbc collection vol 5      -->
-<section class="colors-g page-transition non-preloading" id="fwbcvol5">
+<section class="colors-g page-transition non-preloading" id="mufwbcvol5">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
         <h2><span class="highlight">volume 5</span></h2>
 
         <h6>
-            <a href="#fwbccol" class="hover-effect">
+            <a href="#mufwbccol"  class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
         <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/FWBC_Collection/Vol_5.zip" class="hover-effect">
+            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_5.zip" class="hover-effect">
                 for a zip file of volume 5 <span class="highlight">click here!</span>
             </a>
         </h6>
@@ -9910,19 +9897,19 @@
 
 
 <!--        music fwbc collection vol 6      -->
-<section class="colors-g page-transition non-preloading" id="fwbcvol6">
+<section class="colors-g page-transition non-preloading" id="mufwbcvol6">
     <div class="container" data-animation="fadeInDown">
         <br><br><br><br><br><br>
         <hr>
         <h2><span class="highlight">volume 6</span></h2>
 
         <h6>
-            <a href="#fwbccol" class="hover-effect">
+            <a href="#mufwbccol"  class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
         <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/FWBC_Collection/Vol_6.zip" class="hover-effect">
+            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_6.zip" class="hover-effect">
                 for a zip file of volume 6 <span class="highlight">click here!</span>
             </a>
         </h6>

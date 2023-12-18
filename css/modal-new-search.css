@@ -1,5 +1,5 @@
 /* Add this CSS code to your stylesheet */
-.modal {
+.modal-new-search {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1000; /* Sit on top */
@@ -11,7 +11,7 @@
   background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
 }
 
-.modal-content {
+.modal-new-search-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,18 +26,18 @@
   font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
     0 6px 20px 0 rgba(255, 255, 255, 0.19);
-  width: 70%; /* Set a width for the modal */
-  max-width: 600px; /* Set a max-width for the modal */
+  width: 70%; /* Set a width for the modal-new-search */
+  max-width: 600px; /* Set a max-width for the modal-new-search */
 }
 
-.modal-content p {
+.modal-new-search-content p {
   font-size: 3em;
   line-height: 1.5em;
   font-weight: bold;
 }
 
-/* Style the close button */
-.close {
+/* modal-new-search-close button */
+.modal-new-search-close {
   position: absolute;
   top: 350px;
   right: 300px;
@@ -47,8 +47,8 @@
   z-index: 1001;
 }
 
-.close:hover,
-.close:focus {
+.modal-new-search-close:hover,
+.modal-new-search-close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -56,8 +56,8 @@
 
 /* Responsive styles for screens smaller than 600px */
 @media screen and (max-width: 600px) {
-  .modal-content {
-    width: 90%; /* Increase the width of the modal on small screens */
+  .modal-new-search-content {
+    width: 90%; /* Increase the width of the modal-new-search on small screens */
     font-size: 1.5em; /* Decrease the font size on small screens */
   }
 }
