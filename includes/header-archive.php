@@ -61,6 +61,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
     <link rel="stylesheet" href="../css/search.css">
     <link rel="stylesheet" href="../css/modal-new-search.css">
     <link rel="stylesheet" href="../css/search-switch.css">
+    <link rel="stylesheet" href="../css/modal-categories.css">
 
     <!-- ICONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -68,10 +69,10 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
 
     <!-- SCRIPTS -->
     <script src="//unpkg.com/alpinejs" defer></script>
-    <script src="../js/modal-new-search.js"></script>
+    <script src="../js/modal-categories.js" defer></script>
 
     <!-- Title -->
-    <title>ALLthePREACHING</title>
+    <title>The Archive @ ALLthePREACHING</title>
 
 </head>
 
@@ -79,6 +80,33 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
 
 <body x-data="{ isTop: true }" class="state1 background-100-e">
     <span class="close"></span>
+
+    <!-- Modal Categories -->
+    <div id="modal-categories" class="modal-categories">
+        <div class="modal-categories-content">
+            <span class="modal-categories-close" onclick="closeModal()">&times;</span>
+            <h2>Categories</h2>
+
+            <?php
+            // Fetch all unique categories
+            $sql = "SELECT DISTINCT search_category, vid_category FROM videos WHERE vid_category NOT LIKE 'pro%' ORDER BY search_category ASC";
+            $categories = mysqli_query($conn, $sql);
+            $categoryCount = mysqli_num_rows($categories);
+
+            while ($category = mysqli_fetch_assoc($categories)) {
+
+                // Create a link to the archive page for the current category
+                $categoryLink = 'archive.php#' . strtolower($category['vid_category']);
+
+                // Display the category heading
+                echo '<a href="' . $categoryLink . '" class="modal-link"><h3 class="modal-category-heading">' . $category['search_category'] . '</h3></a>';
+            }
+            ?>
+
+            <!-- Modal Categories List -->
+            <div id="modal-categories-list"></div>
+        </div>
+    </div>
 
     <!--    to top section          -->
     <div class="to-top-email-container page-border bottom colors-e background-solid">
@@ -132,7 +160,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
 
                         <!-- Search Toggle Container -->
                         <div class="search-toggle-container">
-                            <span class="label" title="Choose categories to search category names only. Click for a list of category choices.">Categories</span>
+                            <span class="label" title="Choose categories to search category names only. Click for a list of category choices." onclick="openModal()">Categories</span>
                             <span>
                                 <input type="checkbox" id="search-toggle" name="search-toggle" <?php if (isset($_SESSION['search-toggle']) && $_SESSION['search-toggle']) {
                                                                                                     echo 'checked';
