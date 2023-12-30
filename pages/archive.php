@@ -33,44 +33,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2115,44 +2123,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2196,44 +2212,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2277,44 +2301,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2358,44 +2390,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2439,44 +2479,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2520,44 +2568,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2601,44 +2657,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2682,44 +2746,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2762,44 +2834,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2843,44 +2923,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -2924,44 +3012,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3005,44 +3101,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3086,44 +3190,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3167,44 +3279,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3248,44 +3368,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3329,44 +3457,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3410,44 +3546,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3491,44 +3635,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3572,44 +3724,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3653,44 +3813,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3734,44 +3902,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3815,44 +3991,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3895,44 +4079,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -3976,44 +4168,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4057,44 +4257,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4138,44 +4346,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4217,44 +4433,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4299,44 +4523,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4381,44 +4613,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4462,44 +4702,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4543,44 +4791,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4624,44 +4880,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4705,44 +4969,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4786,44 +5058,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4867,44 +5147,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -4947,44 +5235,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5028,44 +5324,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5109,44 +5413,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5190,44 +5502,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5271,44 +5591,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5352,44 +5680,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5433,44 +5769,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5514,44 +5858,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5595,44 +5947,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5676,44 +6036,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5757,44 +6125,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5838,44 +6214,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -5919,44 +6303,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6000,44 +6392,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6081,44 +6481,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6162,44 +6570,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6242,44 +6658,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6396,44 +6820,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6477,44 +6909,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6558,44 +6998,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6639,44 +7087,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6720,44 +7176,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6801,44 +7265,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -6981,44 +7453,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7062,44 +7542,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7143,44 +7631,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7224,44 +7720,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7305,44 +7809,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7386,44 +7898,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7466,44 +7986,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7547,44 +8075,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7628,44 +8164,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7709,44 +8253,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7790,44 +8342,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7901,44 +8461,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -7980,44 +8548,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8054,44 +8630,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8128,44 +8712,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8344,44 +8936,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8426,44 +9026,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8507,44 +9115,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8588,44 +9204,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8669,44 +9293,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8750,44 +9382,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8831,44 +9471,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8905,44 +9553,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -8979,44 +9635,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9052,44 +9716,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9182,44 +9854,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9266,44 +9946,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9350,44 +10038,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9479,7 +10175,7 @@
         <h2><span class="highlight">volume 1</span></h2>
 
         <h6>
-            <a href="#mufwbccol"  class="hover-effect">
+            <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
@@ -9511,44 +10207,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9564,7 +10268,7 @@
         <h2><span class="highlight">volume 2</span></h2>
 
         <h6>
-            <a href="#mufwbccol"  class="hover-effect">
+            <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
@@ -9596,44 +10300,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9649,7 +10361,7 @@
         <h2><span class="highlight">volume 3</span></h2>
 
         <h6>
-            <a href="#mufwbccol"  class="hover-effect">
+            <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
@@ -9681,44 +10393,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9734,7 +10454,7 @@
         <h2><span class="highlight">volume 4</span></h2>
 
         <h6>
-            <a href="#mufwbccol"  class="hover-effect">
+            <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
@@ -9766,44 +10486,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9819,7 +10547,7 @@
         <h2><span class="highlight">volume 5</span></h2>
 
         <h6>
-            <a href="#mufwbccol"  class="hover-effect">
+            <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
@@ -9851,44 +10579,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
@@ -9904,7 +10640,7 @@
         <h2><span class="highlight">volume 6</span></h2>
 
         <h6>
-            <a href="#mufwbccol"  class="hover-effect">
+            <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
@@ -9936,44 +10672,52 @@
             <!-- COLUMN 1 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[0] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 2 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[1] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 3 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[2] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
 
             <!-- COLUMN 4 -->
             <div class="col-md-3">
                 <ul class="simple">
-                    <?php
-                    foreach ($chunks[3] as $data) {
-                        echo $data['vid_code'];
-                    }
-                    ?>
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
