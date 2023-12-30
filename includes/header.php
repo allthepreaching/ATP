@@ -62,6 +62,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
     <link rel="stylesheet" href="../css/modal-new-search.css">
     <link rel="stylesheet" href="../css/search-switch.css">
     <link rel="stylesheet" href="../css/modal-categories.css">
+    <link rel="stylesheet" href="../css/video-player.css">
 
     <!-- ICONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />

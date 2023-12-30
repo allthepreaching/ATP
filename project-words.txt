@@ -1,11 +1,15 @@
 abible
+arrowleft
 autentication
 docsmain
+enterpictureinpicture
 fwbccol
 fwbcmc
 fwbcvol
 githubcopilot
+httponly
 hymnsmp
+leavepictureinpicture
 mcreation
 mdotd
 mdummies
@@ -34,6 +38,7 @@ pcrod
 pcsword
 pctrue
 pcuncensored
+samesite
 scjones
 swmotivation
 swsanderson

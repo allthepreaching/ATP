@@ -35,7 +35,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -48,7 +48,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -61,7 +61,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -74,7 +74,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2125,7 +2125,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2138,7 +2138,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2151,7 +2151,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2164,7 +2164,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2214,7 +2214,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2227,7 +2227,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2240,7 +2240,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2253,7 +2253,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2303,7 +2303,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2316,7 +2316,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2329,7 +2329,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2342,7 +2342,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2392,7 +2392,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2405,7 +2405,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2418,7 +2418,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2431,7 +2431,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2481,7 +2481,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2494,7 +2494,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2507,7 +2507,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2520,7 +2520,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2570,7 +2570,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2583,7 +2583,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2596,7 +2596,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2609,7 +2609,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2659,7 +2659,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2672,7 +2672,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2685,7 +2685,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2698,7 +2698,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2748,7 +2748,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2761,7 +2761,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2774,7 +2774,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2787,7 +2787,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2836,7 +2836,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2849,7 +2849,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2862,7 +2862,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2875,7 +2875,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2925,7 +2925,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2938,7 +2938,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2951,7 +2951,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -2964,7 +2964,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3014,7 +3014,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3027,7 +3027,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3040,7 +3040,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3053,7 +3053,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3103,7 +3103,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3116,7 +3116,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3129,7 +3129,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3142,7 +3142,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3192,7 +3192,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3205,7 +3205,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3218,7 +3218,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3231,7 +3231,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3281,7 +3281,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3294,7 +3294,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3307,7 +3307,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3320,7 +3320,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3370,7 +3370,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3383,7 +3383,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3396,7 +3396,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3409,7 +3409,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3459,7 +3459,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3472,7 +3472,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3485,7 +3485,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3498,7 +3498,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3548,7 +3548,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3561,7 +3561,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3574,7 +3574,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3587,7 +3587,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3637,7 +3637,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3650,7 +3650,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3663,7 +3663,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3676,7 +3676,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3726,7 +3726,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3739,7 +3739,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3752,7 +3752,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3765,7 +3765,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3815,7 +3815,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3828,7 +3828,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3841,7 +3841,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3854,7 +3854,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3904,7 +3904,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3917,7 +3917,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3930,7 +3930,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3943,7 +3943,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -3993,7 +3993,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4006,7 +4006,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4019,7 +4019,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4032,7 +4032,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4081,7 +4081,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4094,7 +4094,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4107,7 +4107,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4120,7 +4120,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4170,7 +4170,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4183,7 +4183,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4196,7 +4196,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4209,7 +4209,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4259,7 +4259,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4272,7 +4272,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4285,7 +4285,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4298,7 +4298,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4348,7 +4348,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4361,7 +4361,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4374,7 +4374,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4387,7 +4387,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4435,7 +4435,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4448,7 +4448,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4461,7 +4461,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4474,7 +4474,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4525,7 +4525,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4538,7 +4538,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4551,7 +4551,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4564,7 +4564,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4615,7 +4615,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4628,7 +4628,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4641,7 +4641,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4654,7 +4654,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4704,7 +4704,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4717,7 +4717,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4730,7 +4730,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4743,7 +4743,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4793,7 +4793,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4806,7 +4806,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4819,7 +4819,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4832,7 +4832,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4882,7 +4882,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4895,7 +4895,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4908,7 +4908,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4921,7 +4921,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4971,7 +4971,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4984,7 +4984,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -4997,7 +4997,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5010,7 +5010,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5060,7 +5060,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5073,7 +5073,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5086,7 +5086,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5099,7 +5099,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5149,7 +5149,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5162,7 +5162,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5175,7 +5175,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5188,7 +5188,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5237,7 +5237,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5250,7 +5250,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5263,7 +5263,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5276,7 +5276,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5326,7 +5326,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5339,7 +5339,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5352,7 +5352,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5365,7 +5365,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5415,7 +5415,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5428,7 +5428,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5441,7 +5441,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5454,7 +5454,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5504,7 +5504,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5517,7 +5517,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5530,7 +5530,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5543,7 +5543,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5593,7 +5593,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5606,7 +5606,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5619,7 +5619,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5632,7 +5632,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5682,7 +5682,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5695,7 +5695,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5708,7 +5708,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5721,7 +5721,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5771,7 +5771,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5784,7 +5784,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5797,7 +5797,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5810,7 +5810,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5860,7 +5860,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5873,7 +5873,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5886,7 +5886,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5899,7 +5899,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5949,7 +5949,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5962,7 +5962,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5975,7 +5975,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -5988,7 +5988,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6038,7 +6038,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6051,7 +6051,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6064,7 +6064,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6077,7 +6077,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6127,7 +6127,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6140,7 +6140,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6153,7 +6153,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6166,7 +6166,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6216,7 +6216,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6229,7 +6229,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6242,7 +6242,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6255,7 +6255,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6305,7 +6305,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6318,7 +6318,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6331,7 +6331,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6344,7 +6344,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6394,7 +6394,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6407,7 +6407,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6420,7 +6420,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6433,7 +6433,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6483,7 +6483,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6496,7 +6496,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6509,7 +6509,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6522,7 +6522,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6572,7 +6572,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6585,7 +6585,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6598,7 +6598,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6611,7 +6611,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6660,7 +6660,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6673,7 +6673,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6686,7 +6686,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6699,7 +6699,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6822,7 +6822,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6835,7 +6835,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6848,7 +6848,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6861,7 +6861,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6911,7 +6911,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6924,7 +6924,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6937,7 +6937,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -6950,7 +6950,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7000,7 +7000,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7013,7 +7013,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7026,7 +7026,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7039,7 +7039,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7089,7 +7089,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7102,7 +7102,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7115,7 +7115,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7128,7 +7128,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7178,7 +7178,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7191,7 +7191,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7204,7 +7204,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7217,7 +7217,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7267,7 +7267,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7280,7 +7280,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7293,7 +7293,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7306,7 +7306,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7455,7 +7455,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7468,7 +7468,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7481,7 +7481,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7494,7 +7494,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7544,7 +7544,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7557,7 +7557,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7570,7 +7570,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7583,7 +7583,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7633,7 +7633,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7646,7 +7646,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7659,7 +7659,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7672,7 +7672,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7722,7 +7722,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7735,7 +7735,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7748,7 +7748,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7761,7 +7761,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7811,7 +7811,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7824,7 +7824,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7837,7 +7837,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7850,7 +7850,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7900,7 +7900,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7913,7 +7913,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7926,7 +7926,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7939,7 +7939,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -7988,7 +7988,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8001,7 +8001,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8014,7 +8014,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8027,7 +8027,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8077,7 +8077,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8090,7 +8090,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8103,7 +8103,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8116,7 +8116,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8166,7 +8166,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8179,7 +8179,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8192,7 +8192,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8205,7 +8205,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8255,7 +8255,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8268,7 +8268,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8281,7 +8281,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8294,7 +8294,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8344,7 +8344,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8357,7 +8357,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8370,7 +8370,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8383,7 +8383,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8463,7 +8463,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8476,7 +8476,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8489,7 +8489,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8502,7 +8502,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8550,7 +8550,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8563,7 +8563,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8576,7 +8576,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8589,7 +8589,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8632,7 +8632,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8645,7 +8645,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8658,7 +8658,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8671,7 +8671,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8714,7 +8714,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8727,7 +8727,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8740,7 +8740,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8753,7 +8753,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8938,7 +8938,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8951,7 +8951,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8964,7 +8964,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -8977,7 +8977,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9028,7 +9028,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9041,7 +9041,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9054,7 +9054,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9067,7 +9067,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9117,7 +9117,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9130,7 +9130,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9143,7 +9143,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9156,7 +9156,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9206,7 +9206,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9219,7 +9219,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9232,7 +9232,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9245,7 +9245,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9295,7 +9295,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9308,7 +9308,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9321,7 +9321,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9334,7 +9334,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9384,7 +9384,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9397,7 +9397,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9410,7 +9410,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9423,7 +9423,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9473,7 +9473,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9486,7 +9486,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9499,7 +9499,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9512,7 +9512,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9555,7 +9555,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9568,7 +9568,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9581,7 +9581,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9594,7 +9594,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9637,7 +9637,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9650,7 +9650,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9663,7 +9663,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9676,7 +9676,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9718,7 +9718,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9731,7 +9731,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9744,7 +9744,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9757,7 +9757,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9856,7 +9856,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9869,7 +9869,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9882,7 +9882,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9895,7 +9895,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9948,7 +9948,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9961,7 +9961,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9974,7 +9974,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -9987,7 +9987,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10040,7 +10040,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10053,7 +10053,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10066,7 +10066,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10079,7 +10079,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10209,7 +10209,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10222,7 +10222,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10235,7 +10235,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10248,7 +10248,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10302,7 +10302,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10315,7 +10315,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10328,7 +10328,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10341,7 +10341,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10395,7 +10395,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10408,7 +10408,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10421,7 +10421,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10434,7 +10434,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10488,7 +10488,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10501,7 +10501,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10514,7 +10514,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10527,7 +10527,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10581,7 +10581,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10594,7 +10594,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10607,7 +10607,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10620,7 +10620,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10674,7 +10674,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[0] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10687,7 +10687,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[1] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10700,7 +10700,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[2] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
@@ -10713,7 +10713,7 @@
                 <ul class="simple">
                     <?php foreach ($chunks[3] as $data) { ?>
                         <li>
-                            <a href="video.php?id='<?= $data['id']; ?>'" title="'<?= $data['vid_title']; ?>'">
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
                                 <?= $data['vid_title']; ?>
                             </a>
                         </li>
