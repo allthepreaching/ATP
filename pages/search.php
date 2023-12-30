@@ -64,17 +64,20 @@ include_once '../includes/header.php';
 
                     // Display the category heading and the number of videos
                     echo '<a href="' . $categoryLink . '"><h3 class="search-result-category-heading">' . $category['search_category'] . ' <span class="yellow-highlight video-count">(' . $videoCountPerCategory . ')</span></h3></a>';
+        ?>
+                    <!-- // Output the first video -->
+                    <a href="video.php?id='<?= $firstVideo['id']; ?>'" class="search-box" title="'<?= $firstVideo['vid_title']; ?>'">
+                            <?= $firstVideo['vid_title']; ?>
+                    </a>
 
-                    // Output the first video
-                    echo '<div class="search-box">';
-                    echo $firstVideo['vid_code'];
-                    echo '</div>';
-
-                    // Fetch and output the rest of the videos
+                    <!-- // Fetch and output the rest of the videos -->
+                    <?php
                     while ($video = mysqli_fetch_assoc($videos)) {
-                        echo '<div class="search-box">';
-                        echo $video['vid_code'];
-                        echo '</div>';
+                    ?>
+                        <a href="video.php?id='<?= $video['id']; ?>'" class="search-box" title="'<?= $video['vid_title']; ?>'">
+                                <?= $video['vid_title']; ?>
+                        </a>
+        <?php
                     }
                 }
             }
