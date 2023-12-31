@@ -2,7 +2,8 @@
   position: relative;
   top: 100px;
   width: 90%;
-  max-width: 1280px;
+  max-width: 1000px;
+  max-height: 562.5px;
   margin-inline: auto;
   background-color: black;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -11,12 +12,12 @@
 
 .video-container.theater,
 .video-container.full-screen {
-  max-width: initial;
-  width: 100%;
+  max-width: 1280px;
+  max-height: 562.5px;
 }
 
 .video-container.theater {
-  max-height: 80vh;
+  max-height: 90vh;
 }
 
 .video-container.full-screen {
@@ -333,7 +334,7 @@ video {
 
 .video-info-container {
   position: relative;
-  top: 8em;
+  bottom: -10em;
   height: fit-content;
   display: flex;
   flex-direction: column;

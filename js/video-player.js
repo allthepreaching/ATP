@@ -174,10 +174,12 @@ function toggleTheaterMode() {
 }
 
 function toggleFullScreenMode() {
-  if (document.fullscreenElement == null) {
-    videoContainer.requestFullscreen();
-  } else {
-    document.exitFullscreen();
+  if (video.requestFullscreen) {
+    if (!document.fullscreenElement) {
+      video.requestFullscreen().catch(console.error);
+    } else {
+      document.exitFullscreen();
+    }
   }
 }
 
@@ -251,4 +253,3 @@ rewindBtn.addEventListener("click", () => {
 forwardBtn.addEventListener("click", () => {
   skip(5);
 });
-
