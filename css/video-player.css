@@ -64,6 +64,9 @@ video {
 }
 
 .video-controls-container .controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: none;
   border: none;
   color: inherit;
@@ -72,7 +75,7 @@ video {
   width: 30px;
   font-size: 1.1rem;
   cursor: pointer;
-  opacity: 0.85;
+  opacity: 0.8;
   transition: opacity 150ms ease-in-out;
 }
 
@@ -151,12 +154,12 @@ video {
 /* Remove outline on hover and focus */
 .volume-slider:hover,
 .volume-slider:focus {
-    outline: none;
+  outline: none;
 }
 
 /* Add outline back when focused via keyboard */
 .volume-slider:focus-visible {
-    outline: auto;
+  outline: auto;
 }
 
 .volume-container:hover .volume-slider,
@@ -177,7 +180,7 @@ video {
 }
 
 .video-controls-container .controls button.wide-btn {
-  width: 50px;
+  width: 30px;
 }
 
 .timeline-container {
@@ -274,4 +277,73 @@ video {
 .video-container.scrubbing .timeline,
 .timeline-container:hover .timeline {
   height: 100%;
+}
+
+/* Tooltips */
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  min-width: 30px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px 2px;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: bold;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%; /* Place the tooltip above the button */
+  left: 50%;
+  margin-left: calc(
+    -1 * min(15px, 50%)
+  ); /* Use half the width to center the tooltip */
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* Place the arrow at the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* MOBILE */
+
+@media (max-width: 360px) {
+  /* drop down video player */
+  .video-container {
+    top: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* hide mini and theater buttons */
+  .controls .mini-btn,
+  .controls .theater-btn {
+    display: none;
+  }
 }

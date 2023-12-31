@@ -186,12 +186,10 @@ function toggleMiniPlayerMode() {
     if (document.exitPictureInPicture) {
       document.exitPictureInPicture();
     }
+  } else if (video.requestPictureInPicture) {
+    video.requestPictureInPicture();
   } else {
-    if (video.requestPictureInPicture) {
-      video.requestPictureInPicture();
-    } else {
-      alert("Picture-in-Picture API is not supported by your browser.");
-    }
+    alert("Picture-in-Picture API is not supported by your browser.");
   }
 }
 
@@ -253,3 +251,4 @@ rewindBtn.addEventListener("click", () => {
 forwardBtn.addEventListener("click", () => {
   skip(5);
 });
+
