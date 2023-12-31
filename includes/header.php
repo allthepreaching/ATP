@@ -2,6 +2,11 @@
 
 include_once 'dbh-local.php';
 
+session_set_cookie_params([
+    'samesite' => 'None',
+    'secure' => true, // This is required when SameSite is set to 'None'
+]);
+
 // Start the session
 session_start();
 
@@ -62,6 +67,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
     <link rel="stylesheet" href="../css/modal-new-search.css">
     <link rel="stylesheet" href="../css/search-switch.css">
     <link rel="stylesheet" href="../css/modal-categories.css">
+    <link rel="stylesheet" href="../css/video-player.css">
 
     <!-- ICONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />

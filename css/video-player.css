@@ -1,0 +1,449 @@
+.video-container {
+  position: relative;
+  top: 100px;
+  width: 90%;
+  max-width: 1000px;
+  max-height: 562.5px;
+  margin-inline: auto;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  z-index: 1001;
+}
+
+.video-container.theater,
+.video-container.full-screen {
+  max-width: 1280px;
+  max-height: 562.5px;
+}
+
+.video-container.theater {
+  max-height: 90vh;
+}
+
+.video-container.full-screen {
+  max-height: 100vh;
+}
+
+video {
+  width: 100%;
+}
+
+.video-controls-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+.video-controls-container::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+  width: 100%;
+  aspect-ratio: 6 / 1;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.video-container:hover .video-controls-container,
+.video-container:focus-within .video-controls-container,
+.video-container.paused .video-controls-container {
+  opacity: 1;
+}
+
+.video-controls-container .controls {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.25rem;
+  align-items: center;
+}
+
+.video-controls-container .controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 150ms ease-in-out;
+}
+
+.video-controls-container .controls button:hover {
+  opacity: 1;
+}
+
+.video-container.paused .pause-icon {
+  display: none;
+}
+
+.video-container:not(.paused) .play-icon {
+  display: none;
+}
+
+.video-container.theater .tall {
+  display: none;
+}
+
+.video-container:not(.theater) .wide {
+  display: none;
+}
+
+.video-container.full-screen .open {
+  display: none;
+}
+
+.video-container:not(.full-screen) .close {
+  display: none;
+}
+
+.volume-high-icon,
+.volume-low-icon,
+.volume-muted-icon {
+  display: none;
+}
+
+.video-container[data-volume-level="high"] .volume-high-icon {
+  display: block;
+}
+
+.video-container[data-volume-level="low"] .volume-low-icon {
+  display: block;
+}
+
+.video-container[data-volume-level="muted"] .volume-muted-icon {
+  display: block;
+}
+
+.volume-container {
+  display: flex;
+  align-items: center;
+}
+
+.volume-slider {
+  width: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: width 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+/* Remove outline on hover */
+.volume-slider:not(:hover) {
+  outline: none;
+}
+
+/* Add outline back when focused via keyboard */
+.volume-slider:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.volume-slider:focus:focus-visible {
+  outline: auto;
+}
+
+/* Remove outline on hover and focus */
+.volume-slider:hover,
+.volume-slider:focus {
+  outline: none;
+}
+
+/* Add outline back when focused via keyboard */
+.volume-slider:focus-visible {
+  outline: auto;
+}
+
+.volume-container:hover .volume-slider,
+.volume-slider:focus-within {
+  width: 100px;
+  transform: scaleX(1);
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-grow: 1;
+}
+
+.video-container.captions .captions-btn {
+  border-bottom: 3px solid red;
+}
+
+.video-controls-container .controls button.wide-btn {
+  width: 30px;
+}
+
+.timeline-container {
+  height: 7px;
+  margin-inline: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.timeline {
+  background-color: rgba(100, 100, 100, 0.5);
+  height: 3px;
+  width: 100%;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: calc(100% - var(--preview-position) * 100%);
+  background-color: rgb(150, 150, 150);
+  display: none;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: calc(100% - var(--progress-position) * 100%);
+  background-color: red;
+}
+
+.timeline .thumb-indicator {
+  --scale: 0;
+  position: absolute;
+  transform: translateX(-50%) scale(var(--scale));
+  height: 200%;
+  top: -50%;
+  left: calc(var(--progress-position) * 100%);
+  background-color: red;
+  border-radius: 50%;
+  transition: transform 150ms ease-in-out;
+  aspect-ratio: 1 / 1;
+}
+
+.timeline .preview-img {
+  position: absolute;
+  height: 80px;
+  aspect-ratio: 16 / 9;
+  top: -1rem;
+  transform: translate(-50%, -100%);
+  left: calc(var(--preview-position) * 100%);
+  border-radius: 0.25rem;
+  border: 2px solid white;
+  display: none;
+}
+
+.thumbnail-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.video-container.scrubbing .thumbnail-img {
+  display: block;
+}
+
+.video-container.scrubbing .preview-img,
+.timeline-container:hover .preview-img {
+  display: block;
+}
+
+.video-container.scrubbing .timeline::before,
+.timeline-container:hover .timeline::before {
+  display: block;
+}
+
+.video-container.scrubbing .thumb-indicator,
+.timeline-container:hover .thumb-indicator {
+  --scale: 1;
+}
+
+.video-container.scrubbing .timeline,
+.timeline-container:hover .timeline {
+  height: 100%;
+}
+
+/* Tooltips */
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  min-width: 30px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px 2px;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%; /* Place the tooltip above the button */
+  left: 50%;
+  margin-left: calc(
+    -1 * min(15px, 50%)
+  ); /* Use half the width to center the tooltip */
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* Place the arrow at the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.video-info-container {
+  position: relative;
+  bottom: -10em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 1em 0.5em 2.5em 0.5em;
+  width: 90%;
+  max-width: 1280px;
+  margin-inline: auto;
+  background-color: black;
+  z-index: 1001;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.video-info-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-size: 3.5em;
+  font-weight: bold;
+  color: white;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+.video-info-search-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0.25em 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.video-info-main-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.25em;
+  color: white;
+}
+
+.video-info-search-category:hover {
+  color: #dbab83;
+  border: 1px solid #dbab83;
+}
+
+/* MOBILE */
+
+@media (max-width: 360px) {
+  /* drop down video player */
+  .video-container {
+    top: 150px;
+  }
+  /* hide mp3 & cc buttons */
+  .controls a button.mp3-btn,
+  .controls button.captions-btn {
+    display: none;
+  }
+  /* move down video info */
+  .video-info-container {
+    top: 12em;
+  }
+}
+
+@media (max-width: 408px) {
+  /* adjust video info sizing */
+  .video-info-container {
+    bottom: -21em;
+  }
+  .video-info-title {
+    font-size: 2.5em;
+  }
+  .video-info-category {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 450px) {
+  /* hide rewind & forward buttons */
+  .controls button.rewind-btn,
+  .controls button.forward-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  /* hide mini & theater buttons */
+  .controls button.mini-btn,
+  .controls button.theater-btn {
+    display: none;
+  }
+}
