@@ -77,13 +77,12 @@ function toggleScrubbing(e) {
     video.currentTime = percent * video.duration;
     if (!wasPaused) video.play();
   }
-
-  handleTimelineUpdate(e);
 }
 
 function handleTimelineUpdate(e) {
   const rect = timelineContainer.getBoundingClientRect();
   const percent = Math.min(Math.max(0, e.x - rect.x), rect.width) / rect.width;
+  timelineContainer.style.setProperty("--progress-position", percent);
 }
 
 // Playback Speed
@@ -109,7 +108,7 @@ function toggleCaptions() {
 }
 
 // Duration
-video.addEventListener("loadeddata", () => {
+video.addEventListener("loadedmetadata", () => {
   totalTimeElem.textContent = formatDuration(video.duration);
 });
 
@@ -184,9 +183,15 @@ function toggleFullScreenMode() {
 
 function toggleMiniPlayerMode() {
   if (videoContainer.classList.contains("mini-player")) {
-    document.exitPictureInPicture();
+    if (document.exitPictureInPicture) {
+      document.exitPictureInPicture();
+    }
   } else {
-    video.requestPictureInPicture();
+    if (video.requestPictureInPicture) {
+      video.requestPictureInPicture();
+    } else {
+      alert("Picture-in-Picture API is not supported by your browser.");
+    }
   }
 }
 
@@ -236,6 +241,15 @@ video.addEventListener("mouseleave", () => {
     // Set a timeout to hide the controls after 1 second
     timeoutId = setTimeout(() => {
       controlsContainer.classList.add("hidden");
-    }, 1000);
+    }, 5000);
   }
+});
+
+// Rewind and Forward
+rewindBtn.addEventListener("click", () => {
+  skip(-5);
+});
+
+forwardBtn.addEventListener("click", () => {
+  skip(5);
 });
