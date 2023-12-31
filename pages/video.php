@@ -162,7 +162,7 @@ $query->close();
     <?php
 
     // SQL query to fetch the video
-    $sql = "SELECT * FROM videos WHERE id = ?";
+    $sql = "SELECT id, vid_url, thumb_url FROM videos WHERE id = ?";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
@@ -173,26 +173,29 @@ $query->close();
     // Execute the SQL statement
     $stmt->execute();
 
-    // Get the result
-    $result = $stmt->get_result();
+    // Bind the result columns to variables
+    $stmt->bind_result($id, $vid_url, $thumb_url);
 
     // Fetch the video data
-    while ($row = $result->fetch_assoc()) {
+    while ($stmt->fetch()) {
+        // Video Input
     ?>
+        <video src="<?php echo $vid_url; ?>" poster="<?php echo $thumb_url; ?>">
 
-        <!-- Video Input -->
-        <video src="<?php echo $row['vid_url']; ?>" poster="<?php echo $row['thumb_url']; ?>">
             <!-- Video Track -->
-            <track kind="captions" label="English" srclang="en" src="../includes/proxy.php?url=<?php echo urlencode(str_replace('.mp4', '.vtt', $row['vid_url'])); ?>">
+            <track kind="captions" label="English" srclang="en" src="../includes/proxy.php?url=<?php echo urlencode(str_replace('.mp4', '.vtt', $vid_url)); ?>">
         </video>
-    <?php }
-    $stmt->close(); ?>
+    <?php
+    }
+
+    $stmt->close();
+    ?>
 
 </div>
 <?php
 
 // SQL query to fetch the video
-$sql = "SELECT * FROM videos WHERE id = ?";
+$sql = "SELECT id, vid_category, vid_title, search_category, main_category FROM videos WHERE id = ?";
 
 // Prepare the SQL statement
 $stmt = $conn->prepare($sql);
@@ -203,29 +206,32 @@ $stmt->bind_param("i", $videoId);
 // Execute the SQL statement
 $stmt->execute();
 
-// Get the result
-$result = $stmt->get_result();
+// Bind the result columns to variables
+$stmt->bind_result($id, $vid_category, $vid_title, $search_category, $main_category);
 
 // Fetch the video data
-while ($row = $result->fetch_assoc()) {
-    // Create a link to the archive page for the current category
-    $searchCategoryLink = 'archive.php#' . strtolower($row['vid_category']);
-?>
+while ($stmt->fetch()) {
 
-    <!-- Video Info Container -->
+    // Create a link to the archive page for the current category
+    $searchCategoryLink = 'archive.php#' . strtolower($vid_category);
+
+    // Video Info Container
+?>
     <div class="video-info-container">
         <div class="video-info">
             <div class="video-info-title">
-                <?php echo $row['vid_title']; ?>
+                <?php echo $vid_title; ?>
             </div>
             <a href="<?php echo $searchCategoryLink ?>" class="video-info-search-category">
-                <?php echo $row['search_category']; ?>
+                <?php echo $search_category; ?>
             </a>
             <div class="video-info-main-category">
-                <?php echo $row['main_category']; ?>
+                <?php echo $main_category; ?>
             </div>
         </div>
     </div>
+<?php
+}
 
-<?php }
-$stmt->close(); ?>
+$stmt->close();
+?>
