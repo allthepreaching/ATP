@@ -20,11 +20,10 @@ $query->bind_param("i", $videoId); // "i" indicates the variable type is integer
 
 $query->execute();
 
-$result = $query->get_result();
-if ($result->num_rows > 0) {
-    // Fetch result
-    $row = $result->fetch_assoc();
-    $vid_url = $row['vid_url'];
+$query->bind_result($vid_url);
+
+if ($query->fetch()) {
+    // $vid_url now holds the value from the database
 } else {
     echo "No results found";
 }
@@ -105,7 +104,7 @@ $query->close();
             </div>
 
             <!-- MP3 Container -->
-            <a href="<?php echo str_replace('.mp4', '.mp3', $row['vid_url']); ?>">
+            <a href="<?php echo str_replace('.mp4', '.mp3', $vid_url); ?>">
                 <button class="mp3-btn tooltip">
                     <span class="tooltiptext">Download MP3</span>
                     <svg height="22" width="30" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
