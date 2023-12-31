@@ -2,6 +2,11 @@
 
 include_once 'dbh-local.php';
 
+session_set_cookie_params([
+    'samesite' => 'None',
+    'secure' => true, // This is required when SameSite is set to 'None'
+]);
+
 // Start the session
 session_start();
 
