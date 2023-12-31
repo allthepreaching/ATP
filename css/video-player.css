@@ -2,11 +2,10 @@
   position: relative;
   top: 100px;
   width: 90%;
-  max-width: 1000px;
-  display: flex;
-  justify-content: center;
+  max-width: 1280px;
   margin-inline: auto;
   background-color: black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   z-index: 1001;
 }
 
@@ -298,6 +297,7 @@ video {
   border-radius: 6px;
   font-size: 1em;
   font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 
   /* Position the tooltip text */
   position: absolute;
@@ -331,6 +331,75 @@ video {
   opacity: 1;
 }
 
+.video-info-container {
+  position: relative;
+  top: 8em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 1em 0.5em 2.5em 0.5em;
+  width: 90%;
+  max-width: 1280px;
+  margin-inline: auto;
+  background-color: black;
+  z-index: 1001;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.video-info-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-size: 3.5em;
+  font-weight: bold;
+  color: white;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+.video-info-search-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0.25em 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.video-info-main-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.25em;
+  color: white;
+}
+
+.video-info-search-category:hover {
+  color: #dbab83;
+  border: 1px solid #dbab83;
+}
+
 /* MOBILE */
 
 @media (max-width: 360px) {
@@ -338,12 +407,42 @@ video {
   .video-container {
     top: 150px;
   }
+  /* hide mp3 & cc buttons */
+  .controls a button.mp3-btn,
+  .controls button.captions-btn {
+    display: none;
+  }
+  /* move down video info */
+  .video-info-container {
+    top: 12em;
+  }
+}
+
+@media (max-width: 408px) {
+  /* adjust video info sizing */
+  .video-info-container {
+    bottom: -21em;
+  }
+  .video-info-title {
+    font-size: 2.5em;
+  }
+  .video-info-category {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 450px) {
+  /* hide rewind & forward buttons */
+  .controls button.rewind-btn,
+  .controls button.forward-btn {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
-  /* hide mini and theater buttons */
-  .controls .mini-btn,
-  .controls .theater-btn {
+  /* hide mini & theater buttons */
+  .controls button.mini-btn,
+  .controls button.theater-btn {
     display: none;
   }
 }
