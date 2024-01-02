@@ -42,7 +42,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
     <meta property="og:title" content="ALLthePREACHING" />
     <meta property="og:description" content="Everything NIFB." />
     <meta property="og:url" content="http://www.allthepreaching.com" />
-    <meta property="og:image" content="https://www.allthepreaching.com/ATP_3_1200x630.png" />
+    <meta property="og:image" content="https://www.allthepreaching.com/images/ATP_FB_BANNER_Pastor_Collage.png" />
     <meta property="og:image:alt" content="All The Preaching" />
 
     <!-- FAVICON -->

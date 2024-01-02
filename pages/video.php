@@ -179,8 +179,9 @@ $query->close();
     // Fetch the video data
     while ($stmt->fetch()) {
         // Video Input
+        $posterUrl = (!empty($thumb_url)) ? $thumb_url : '../images/default-video-thumb.jpg';
     ?>
-        <video src="<?php echo $vid_url; ?>" poster="<?php echo $thumb_url; ?>">
+        <video src="<?php echo $vid_url; ?>" poster="<?php echo $posterUrl; ?>">
 
             <!-- Video Track -->
             <track kind="captions" label="English" srclang="en" src="../includes/proxy.php?url=<?php echo urlencode(str_replace('.mp4', '.vtt', $vid_url)); ?>">

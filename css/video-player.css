@@ -364,6 +364,7 @@ video {
   align-items: center;
   justify-content: center;
   width: fit-content;
+  line-height: 1.2em;
   font-size: 3.5em;
   font-weight: bold;
   color: white;
@@ -409,8 +410,7 @@ video {
     top: 150px;
   }
   /* hide mp3 & cc buttons */
-  .controls a button.mp3-btn,
-  .controls button.captions-btn {
+  .controls a button.mp3-btn {
     display: none;
   }
   /* move down video info */
@@ -426,6 +426,7 @@ video {
   }
   .video-info-title {
     font-size: 2.5em;
+    line-height: 1em;
   }
   .video-info-category {
     font-size: 1em;
