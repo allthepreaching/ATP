@@ -33,7 +33,7 @@ if (isset($_GET['path'])) {
 } else if (isset($_GET['id'])) { //this is for legacy URLS containing video id, we don't want the old links that someone may have used to stop working
     $vid_id = $_GET['id'];
     $query = $conn->prepare("SELECT vid_url FROM videos WHERE id = ?");
-    $query->bind_param("i", $videoId); // "i" indicates the variable type is integer
+    $query->bind_param("i", $vid_id); // "i" indicates the variable type is integer
 
     $query->execute();
 
