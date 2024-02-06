@@ -10,9 +10,8 @@ global $vid_start_time;
 global $vtt_to_txt_url;
 global $vid_id;
 
-// Check if path param is present in the URL, path is sent from search.php
+// Check if the 'id' parameter is set in the URL
 if (isset($_GET['path'])) {
-    //Format the path data for various uses (such as display name and video url, vtt url...)
     $parts = explode("/", $_GET['path']);
     // Get the last part and remove the file extension
     $vid_title = str_replace('_', ' ', pathinfo(end($parts), PATHINFO_FILENAME));
@@ -21,29 +20,28 @@ if (isset($_GET['path'])) {
     // Get the video ID from the URL
     $file_path_no_extension = substr(urldecode($_GET['path']), 0, strrpos(urldecode($_GET['path']), '.'));
     $vid_url = 'https://www.kjv1611only.com/video/' . $file_path_no_extension . '.mp4';
-    $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path=' . urlencode('video/' .  $file_path_no_extension . '.vtt');
+    $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path=' 
+        . urlencode('video/' .  $file_path_no_extension . '.vtt');
     $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
     $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
     if (isset($_GET["time"])) {
-        //this is to change video start time when it's opened from a subtitle cue click with its timestamp
-        $vid_start_time = $_GET["time"] - 5; //move to 5 seconds earlier for context
+        $vid_start_time = $_GET["time"] - 5;
+        //$vid_start_time = convertTimestampToSeconds($_GET["time"]) - 5;
     } else {
-        $vid_start_time = 0; //else start the video at the beginning
+        $vid_start_time = 0;
     }
-} else if (isset($_GET['id'])) { //this is for legacy URLS containing video id, we don't want the old links that someone may have used to stop working
+} elseif (isset($_GET['id'])) {
     $vid_id = $_GET['id'];
-    $query = $conn->prepare("SELECT vid_url FROM videos WHERE id = ?");
+    $query = $conn->prepare("SELECT vid_url, vid_title, search_category FROM videos WHERE id = ?");
     $query->bind_param("i", $vid_id); // "i" indicates the variable type is integer
 
     $query->execute();
 
-    $query->bind_result($vid_url);
-
-    $subtitle_url = str_replace('.mp4', '.vtt', $$vid_url);
-    $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
+    $query->bind_result($vid_url, $vid_title, $vid_category);
 
     if ($query->fetch()) {
-        // $vid_url now holds the value from the database
+        $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
+        $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
     } else {
         echo "No results found";
     }
@@ -238,7 +236,6 @@ if (isset($_GET['path'])) {
         </div>
         <div class="video-info-main-category">
             <?php
-            //display video information
             if (strpos($vid_category, '.') !== false) {
                 $vid_category = substr($vid_category, 0, strrpos($vid_category, "."));
             }
@@ -248,4 +245,27 @@ if (isset($_GET['path'])) {
     </div>
 </div>
 
+<?php
+echo $subtitle_url;
 
+
+function convertTimestampToSeconds($timestamp)
+{
+    $parts = explode(':', $timestamp);
+
+    if (count($parts) == 3) {
+        // Timestamp is in the format HH:MM:SS.sss
+        $hours = intval($parts[0]);
+        $minutes = intval($parts[1]);
+        $seconds = floatval($parts[2]);
+    } else if (count($parts) == 2) {
+        // Timestamp is in the format MM:SS.sss
+        $hours = 0;
+        $minutes = intval($parts[0]);
+        $seconds = floatval($parts[1]);
+    } else {
+        throw new Exception('Invalid timestamp format');
+    }
+
+    return $hours * 3600 + $minutes * 60 + $seconds;
+}
