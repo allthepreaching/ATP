@@ -1,12 +1,53 @@
 <?php
 
 include_once '../includes/header.php';
+global $vid_title;
+global $vid_category;
+global $subtitle_url;
+global $vid_url;
+global $thumb_url;
+global $vid_start_time;
+global $vtt_to_txt_url;
+global $vid_id;
 
 // Check if the 'id' parameter is set in the URL
-if (isset($_GET['id'])) {
-
+if (isset($_GET['path'])) {
+    $parts = explode("/", $_GET['path']);
+    // Get the last part and remove the file extension
+    $vid_title = str_replace('_', ' ', pathinfo(end($parts), PATHINFO_FILENAME));
+    // Get the second part as the category info
+    $vid_category = str_replace('_', ' ', $parts[1]);
     // Get the video ID from the URL
-    $videoId = $_GET['id'];
+    $file_path_no_extension = substr(urldecode($_GET['path']), 0, strrpos(urldecode($_GET['path']), '.'));
+    $vid_url = 'https://www.kjv1611only.com/video/' . $file_path_no_extension . '.mp4';
+    $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path=' . urlencode('video/' .  $file_path_no_extension . '.vtt');
+    $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
+    $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
+    if (isset($_GET["time"])) {
+        $vid_start_time = $_GET["time"] - 5;
+        //$vid_start_time = convertTimestampToSeconds($_GET["time"]) - 5;
+    } else {
+        $vid_start_time = 0;
+    }
+} else if (isset($_GET['id'])) {
+    $vid_id = $_GET['id'];
+    $query = $conn->prepare("SELECT vid_url FROM videos WHERE id = ?");
+    $query->bind_param("i", $videoId); // "i" indicates the variable type is integer
+
+    $query->execute();
+
+    $query->bind_result($vid_url);
+
+    $subtitle_url = str_replace('.mp4', '.vtt', $$vid_url);
+    $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
+
+    if ($query->fetch()) {
+        // $vid_url now holds the value from the database
+    } else {
+        echo "No results found";
+    }
+
+    $query->close();
 } else {
 
     // Redirect to the home page if the video ID is not set
@@ -14,21 +55,7 @@ if (isset($_GET['id'])) {
     exit();
 }
 
-// Prepare and execute SQL statement
-$query = $conn->prepare("SELECT vid_url FROM videos WHERE id = ?");
-$query->bind_param("i", $videoId); // "i" indicates the variable type is integer
 
-$query->execute();
-
-$query->bind_result($vid_url);
-
-if ($query->fetch()) {
-    // $vid_url now holds the value from the database
-} else {
-    echo "No results found";
-}
-
-$query->close();
 ?>
 
 <!-- Video Player Script -->
@@ -59,7 +86,7 @@ $query->close();
             </button>
 
             <!-- Play Pause Button -->
-            <button class="play-pause-btn tooltip">
+            <button data-time="<?php echo $vid_start_time ?>" class="play-pause-btn tooltip">
                 <span class="tooltiptext">K</span>
                 <svg class="play-icon" height="30" width="30" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z" />
@@ -102,6 +129,25 @@ $query->close();
                 /
                 <div class="total-time"></div>
             </div>
+
+
+            <!-- TXT Container -->
+            <a href="<?php echo $vtt_to_txt_url; ?>">
+                <button class="mp3-btn tooltip">
+                    <span class="tooltiptext">Download TXT transcript</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+                        <defs>
+                        </defs>
+                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                            <path d="M 77.474 17.28 L 61.526 1.332 C 60.668 0.473 59.525 0 58.311 0 H 15.742 c -2.508 0 -4.548 2.04 -4.548 4.548 v 80.904 c 0 2.508 2.04 4.548 4.548 4.548 h 58.516 c 2.508 0 4.549 -2.04 4.549 -4.548 V 20.496 C 78.807 19.281 78.333 18.138 77.474 17.28 z M 61.073 5.121 l 12.611 12.612 H 62.35 c -0.704 0 -1.276 -0.573 -1.276 -1.277 V 5.121 z M 15.742 3 h 42.332 v 13.456 c 0 2.358 1.918 4.277 4.276 4.277 h 13.457 v 33.2 H 14.194 V 4.548 C 14.194 3.694 14.888 3 15.742 3 z M 74.258 87 H 15.742 c -0.854 0 -1.548 -0.694 -1.548 -1.548 V 56.934 h 61.613 v 28.519 C 75.807 86.306 75.112 87 74.258 87 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            <path d="M 34.604 62.687 h -8.816 c -0.829 0 -1.5 0.672 -1.5 1.5 s 0.671 1.5 1.5 1.5 h 2.908 v 15.164 c 0 0.828 0.671 1.5 1.5 1.5 s 1.5 -0.672 1.5 -1.5 V 65.687 h 2.908 c 0.829 0 1.5 -0.672 1.5 -1.5 S 35.432 62.687 34.604 62.687 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            <path d="M 46.69 72.519 l 4.021 -7.599 c 0.387 -0.731 0.107 -1.64 -0.625 -2.027 c -0.729 -0.385 -1.639 -0.107 -2.027 0.625 l -3.065 5.794 l -3.066 -5.794 c -0.388 -0.732 -1.294 -1.012 -2.027 -0.625 c -0.732 0.388 -1.012 1.296 -0.624 2.027 l 4.02 7.599 l -4.02 7.599 c -0.388 0.731 -0.108 1.64 0.624 2.027 c 0.224 0.118 0.464 0.174 0.7 0.174 c 0.538 0 1.058 -0.29 1.327 -0.799 l 3.066 -5.794 l 3.065 5.794 c 0.27 0.509 0.789 0.799 1.327 0.799 c 0.237 0 0.477 -0.056 0.7 -0.174 c 0.732 -0.388 1.012 -1.296 0.625 -2.027 L 46.69 72.519 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            <path d="M 64.212 62.687 h -8.815 c -0.828 0 -1.5 0.672 -1.5 1.5 s 0.672 1.5 1.5 1.5 h 2.908 v 15.164 c 0 0.828 0.672 1.5 1.5 1.5 s 1.5 -0.672 1.5 -1.5 V 65.687 h 2.907 c 0.828 0 1.5 -0.672 1.5 -1.5 S 65.04 62.687 64.212 62.687 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        </g>
+                    </svg>
+                </button>
+            </a>
 
             <!-- MP3 Container -->
             <a href="<?php echo str_replace('.mp4', '.mp3', $vid_url); ?>">
@@ -161,78 +207,66 @@ $query->close();
 
     <?php
 
-    // SQL query to fetch the video
-    $sql = "SELECT id, vid_url, thumb_url FROM videos WHERE id = ?";
 
-    // Prepare the SQL statement
-    $stmt = $conn->prepare($sql);
-
-    // Bind the video ID to the SQL statement
-    $stmt->bind_param("i", $videoId);
-
-    // Execute the SQL statement
-    $stmt->execute();
-
-    // Bind the result columns to variables
-    $stmt->bind_result($id, $vid_url, $thumb_url);
-
-    // Fetch the video data
-    while ($stmt->fetch()) {
-        // Video Input
-        $posterUrl = (!empty($thumb_url)) ? $thumb_url : '../images/default-video-thumb.jpg';
+    // Video Input
+    $posterUrl = (!empty($thumb_url)) ? $thumb_url : '../images/default-video-thumb.jpg';
     ?>
-        <video src="<?php echo $vid_url; ?>" poster="<?php echo $posterUrl; ?>">
+    <video src="<?php echo $vid_url; ?>" poster="<?php echo $posterUrl; ?>">
 
-            <!-- Video Track -->
-            <track kind="captions" label="English" srclang="en" src="../includes/proxy.php?url=<?php echo urlencode(str_replace('.mp4', '.vtt', $vid_url)); ?>">
-        </video>
-    <?php
-    }
-
-    $stmt->close();
-    ?>
+        <!-- Video Track -->
+        <track kind="captions" label="English" srclang="en" src="../includes/proxy.php?url=<?php echo urlencode($subtitle_url) ?>">
+    </video>
 
 </div>
-<?php
 
-// SQL query to fetch the video
-$sql = "SELECT id, vid_category, vid_title, search_category, main_category FROM videos WHERE id = ?";
-
-// Prepare the SQL statement
-$stmt = $conn->prepare($sql);
-
-// Bind the video ID to the SQL statement
-$stmt->bind_param("i", $videoId);
-
-// Execute the SQL statement
-$stmt->execute();
-
-// Bind the result columns to variables
-$stmt->bind_result($id, $vid_category, $vid_title, $search_category, $main_category);
-
-// Fetch the video data
-while ($stmt->fetch()) {
-
-    // Create a link to the archive page for the current category
-    $searchCategoryLink = 'archive.php#' . strtolower($vid_category);
-
-    // Video Info Container
-?>
-    <div class="video-info-container">
-        <div class="video-info">
-            <div class="video-info-title">
-                <?php echo $vid_title; ?>
-            </div>
-            <a href="<?php echo $searchCategoryLink ?>" class="video-info-search-category">
-                <?php echo $search_category; ?>
+<div class="video-info-container text-center">
+    <div class="video-info">
+        <div class="video-info-title">
+            <?php echo $vid_title; ?>
+            <a style="cursor: pointer;">
+                <svg onclick="copyToClipboard()" style="margin-left: 30px;" height="40" width="40" fill="#dbab83" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483 483" xml:space="preserve">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g>
+                            <path d="M395.72,0c-48.204,0-87.281,39.078-87.281,87.281c0,2.036,0.164,4.03,0.309,6.029l-161.233,75.674 c-15.668-14.971-36.852-24.215-60.231-24.215c-48.204,0.001-87.282,39.079-87.282,87.282c0,48.204,39.078,87.281,87.281,87.281 c15.206,0,29.501-3.907,41.948-10.741l69.789,58.806c-3.056,8.896-4.789,18.396-4.789,28.322c0,48.204,39.078,87.281,87.281,87.281 c48.205,0,87.281-39.078,87.281-87.281s-39.077-87.281-87.281-87.281c-15.205,0-29.5,3.908-41.949,10.74l-69.788-58.805 c3.057-8.891,4.789-18.396,4.789-28.322c0-2.035-0.164-4.024-0.308-6.029l161.232-75.674c15.668,14.971,36.852,24.215,60.23,24.215 c48.203,0,87.281-39.078,87.281-87.281C482.999,39.079,443.923,0,395.72,0z"></path>
+                        </g>
+                    </g>
+                </svg>
             </a>
-            <div class="video-info-main-category">
-                <?php echo $main_category; ?>
-            </div>
+        </div>
+        <div class="video-info-main-category">
+            <?php
+            if (strpos($vid_category, '.') !== false) {
+                $vid_category = substr($vid_category, 0, strrpos($vid_category, "."));
+            }
+            echo $vid_category;
+            ?>
         </div>
     </div>
-<?php
-}
+</div>
 
-$stmt->close();
-?>
+<?php
+echo $subtitle_url;
+
+
+function convertTimestampToSeconds($timestamp)
+{
+    $parts = explode(':', $timestamp);
+
+    if (count($parts) == 3) {
+        // Timestamp is in the format HH:MM:SS.sss
+        $hours = intval($parts[0]);
+        $minutes = intval($parts[1]);
+        $seconds = floatval($parts[2]);
+    } else if (count($parts) == 2) {
+        // Timestamp is in the format MM:SS.sss
+        $hours = 0;
+        $minutes = intval($parts[0]);
+        $seconds = floatval($parts[1]);
+    } else {
+        throw new Exception('Invalid timestamp format');
+    }
+
+    return $hours * 3600 + $minutes * 60 + $seconds;
+}

@@ -3,7 +3,7 @@
   top: 100px;
   width: 90%;
   max-width: 1000px;
-  max-height: 562.5px;
+  max-height: 1000px;
   margin-inline: auto;
   background-color: black;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -400,6 +400,25 @@ video {
 .video-info-search-category:hover {
   color: #dbab83;
   border: 1px solid #dbab83;
+}
+
+.share {
+  font-weight: bold;
+  position: relative;
+}
+.share:before {
+  content: ".";
+  font-size: 2.2em;
+  position: absolute;
+  bottom: -2.5px;
+  left: -4px;
+}
+.share:after {
+  content: ":";
+  font-size: 2em;
+  position: absolute;
+  bottom: -6px;
+  right: -7px;
 }
 
 /* MOBILE */

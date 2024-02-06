@@ -11,7 +11,7 @@
 }
 
 .new-content-title {
-  margin-top: 0 !important ;
+  margin-top: 0 !important;
 }
 
 .container h6 {
@@ -55,7 +55,8 @@ textarea {
 
 .tracker-image {
   width: 1000px;
-  max-width: 100%; /* Make the image responsive */
+  max-width: 100%;
+  /* Make the image responsive */
 }
 
 .sw-track-heading {

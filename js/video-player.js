@@ -15,7 +15,9 @@ const videoContainer = document.querySelector(".video-container");
 const timelineContainer = document.querySelector(".timeline-container");
 const video = document.querySelector("video");
 
-// Keyboard Shortcuts
+
+video.currentTime = playPauseBtn.dataset.time;
+
 document.addEventListener("keydown", (e) => {
   const tagName = document.activeElement.tagName.toLowerCase();
 
@@ -98,7 +100,7 @@ function changePlaybackSpeed() {
 
 // Captions
 const captions = video.textTracks[0];
-captions.mode = "hidden";
+captions.mode = getCaptionMode();
 
 captionsBtn.addEventListener("click", toggleCaptions);
 
@@ -106,7 +108,15 @@ function toggleCaptions() {
   const isHidden = captions.mode === "hidden";
   captions.mode = isHidden ? "showing" : "hidden";
   videoContainer.classList.toggle("captions", isHidden);
+  document.cookie = `captions=${captions.mode};path=/`;
 }
+
+function getCaptionMode() {
+  const cookies = document.cookie.split('; ');
+  const captionCookie = cookies.find(row => row.startsWith('captions='));
+  return captionCookie ? captionCookie.split('=')[1] : "showing";
+}
+
 
 // Duration
 video.addEventListener("loadedmetadata", () => {
@@ -254,3 +264,17 @@ rewindBtn.addEventListener("click", () => {
 forwardBtn.addEventListener("click", () => {
   skip(5);
 });
+
+function copyToClipboard() {
+  // Get the current URL and modify the query parameter
+  var url = new URL(window.location.href);
+  url.searchParams.set('time', video.currentTime - 5);
+
+  try {
+    navigator.clipboard.writeText(url.toString());
+    // Alert the user
+    alert('URL copied to clipboard');
+  } catch (err) {
+    console.error('Failed to copy: ', err);
+  }
+}

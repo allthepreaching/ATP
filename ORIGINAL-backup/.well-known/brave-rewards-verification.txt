@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: allthepreaching.com
+Token: 9d00cc0605f05cf12f04dd4a87385b9e1c7c03a2504b877e30ff83693ffc5f68

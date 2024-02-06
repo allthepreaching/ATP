@@ -1,0 +1,28 @@
+[03-Jan-2024 21:58:38 America/New_York] PHP Warning:  include_once(inc/dbh-local.php): Failed to open stream: No such file or directory in /home/alltdjli/public_html/script.php on line 2
+[03-Jan-2024 21:58:38 America/New_York] PHP Warning:  include_once(): Failed opening 'inc/dbh-local.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alltdjli/public_html/script.php on line 2
+[03-Jan-2024 21:58:38 America/New_York] PHP Warning:  Undefined variable $conn in /home/alltdjli/public_html/script.php on line 13
+[03-Jan-2024 21:58:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/alltdjli/public_html/script.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/alltdjli/public_html/script.php on line 13
+[03-Jan-2024 21:59:56 America/New_York] PHP Warning:  include_once(inc/dbh-live.php): Failed to open stream: No such file or directory in /home/alltdjli/public_html/script.php on line 2
+[03-Jan-2024 21:59:56 America/New_York] PHP Warning:  include_once(): Failed opening 'inc/dbh-live.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alltdjli/public_html/script.php on line 2
+[03-Jan-2024 21:59:56 America/New_York] PHP Warning:  Undefined variable $conn in /home/alltdjli/public_html/script.php on line 13
+[03-Jan-2024 21:59:56 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/alltdjli/public_html/script.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/alltdjli/public_html/script.php on line 13
+[03-Jan-2024 22:04:05 America/New_York] PHP Warning:  include_once(inc/dbh-live.php): Failed to open stream: No such file or directory in /home/alltdjli/public_html/script.php on line 2
+[03-Jan-2024 22:04:05 America/New_York] PHP Warning:  include_once(): Failed opening 'inc/dbh-live.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alltdjli/public_html/script.php on line 2
+[03-Jan-2024 22:04:05 America/New_York] PHP Warning:  Undefined variable $conn in /home/alltdjli/public_html/script.php on line 13
+[03-Jan-2024 22:04:05 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/alltdjli/public_html/script.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/alltdjli/public_html/script.php on line 13
+[03-Jan-2024 22:08:19 America/New_York] PHP Warning:  include_once(inc/dbh-live.php): Failed to open stream: No such file or directory in /home/alltdjli/public_html/script.php on line 2
+[03-Jan-2024 22:08:19 America/New_York] PHP Warning:  include_once(): Failed opening 'inc/dbh-live.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alltdjli/public_html/script.php on line 2
+[03-Jan-2024 22:08:19 America/New_York] PHP Warning:  Undefined variable $conn in /home/alltdjli/public_html/script.php on line 17
+[03-Jan-2024 22:08:19 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/alltdjli/public_html/script.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/alltdjli/public_html/script.php on line 17

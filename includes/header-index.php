@@ -1,11 +1,6 @@
 <?php
 
-include_once 'dbh-local.php';
-
-session_set_cookie_params([
-    'samesite' => 'None',
-    'secure' => true, // This is required when SameSite is set to 'None'
-]);
+include_once 'dbh-live.php';
 
 // Start the session
 session_start();
@@ -42,7 +37,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
     <meta property="og:title" content="ALLthePREACHING" />
     <meta property="og:description" content="Everything NIFB." />
     <meta property="og:url" content="http://www.allthepreaching.com" />
-    <meta property="og:image" content="https://www.allthepreaching.com/images/ATP_FB_BANNER_Pastor_Collage.png" />
+    <meta property="og:image" content="https://www.allthepreaching.com/images/Pastor_Collage.png" />
     <meta property="og:image:alt" content="All The Preaching" />
 
     <!-- FAVICON -->
@@ -101,20 +96,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
             <span class="modal-categories-close" onclick="closeModal()">&times;</span>
             <h2>Categories</h2>
 
-            <?php
-            // Fetch all unique categories
-            $sql = "SELECT DISTINCT search_category, vid_category FROM videos WHERE vid_category NOT LIKE 'pro%' ORDER BY search_category ASC";
-            $categories = mysqli_query($conn, $sql);
-            $categoryCount = mysqli_num_rows($categories);
-
-            while ($category = mysqli_fetch_assoc($categories)) {
-
-                // Create a link to the archive page for the current category
-                $categoryLink = 'pages/archive.php#' . strtolower($category['vid_category']);
-
-                // Display the category heading
-                echo '<a href="' . $categoryLink . '"><h3 class="modal-category-heading">' . $category['search_category'] . '</h3></a>';
-            }
+            <?php include_once 'header-categories.php' ?>
             ?>
 
             <!-- Modal Categories List -->
@@ -160,39 +142,10 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
                 </ul>
             </div>
 
-            <!-- Search -->
-            <div class="searchBox">
-                <div class="search-field">
-                    <form action="pages/search.php" method="POST">
-
-                        <!-- Search Toggle Container -->
-                        <div class="search-toggle-container">
-                            <span class="label" title="Choose categories to search category names only. Click for a list of category choices." onclick="openModal()">Categories</span>
-                            <span>
-                                <input type="checkbox" id="search-toggle" name="search-toggle" <?php if (isset($_SESSION['search-toggle']) && $_SESSION['search-toggle']) {
-                                                                                                    echo 'checked';
-                                                                                                } ?> />
-                                <label for="search-toggle" id="search-toggle-label"></label>
-                            </span>
-                            <span class="label" title="Choose titles to search video titles only.">Titles</span>
-                        </div>
-
-                        <!-- Search Input & Button Container -->
-                        <div class="search-input-button-container">
-
-                            <!-- Search Input -->
-                            <input id="search-input" type="text" name="search" placeholder="Search..." required>
-
-                            <!-- Search Button -->
-                            <button type="submit" name="submit-search">
-                                <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11 6C13.7614 6 16 8.23858 16 11M16.6588 16.6549L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#dbab83" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+            <?php
+            $search_script_path = 'pages/';
+            include_once 'search-form.php'
+            ?>
         </div>
     </nav>
 
