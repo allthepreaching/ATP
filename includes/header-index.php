@@ -143,6 +143,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
             </div>
 
             <?php
+            //search form with the two inputs is in a separate php file to avoid duplicate code, and this variable is set depending on the folder that this current script is in so search can be loaded properly
             $search_script_path = 'pages/';
             include_once 'search-form.php'
             ?>

@@ -10,8 +10,9 @@ global $vid_start_time;
 global $vtt_to_txt_url;
 global $vid_id;
 
-// Check if the 'id' parameter is set in the URL
+// Check if path param is present in the URL, path is sent from search.php
 if (isset($_GET['path'])) {
+    //Format the path data for various uses (such as display name and video url, vtt url...)
     $parts = explode("/", $_GET['path']);
     // Get the last part and remove the file extension
     $vid_title = str_replace('_', ' ', pathinfo(end($parts), PATHINFO_FILENAME));
@@ -24,12 +25,12 @@ if (isset($_GET['path'])) {
     $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
     $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
     if (isset($_GET["time"])) {
-        $vid_start_time = $_GET["time"] - 5;
-        //$vid_start_time = convertTimestampToSeconds($_GET["time"]) - 5;
+        //this is to change video start time when it's opened from a subtitle cue click with its timestamp
+        $vid_start_time = $_GET["time"] - 5; //move to 5 seconds earlier for context
     } else {
-        $vid_start_time = 0;
+        $vid_start_time = 0; //else start the video at the beginning
     }
-} else if (isset($_GET['id'])) {
+} else if (isset($_GET['id'])) { //this is for legacy URLS containing video id, we don't want the old links that someone may have used to stop working
     $vid_id = $_GET['id'];
     $query = $conn->prepare("SELECT vid_url FROM videos WHERE id = ?");
     $query->bind_param("i", $videoId); // "i" indicates the variable type is integer
@@ -237,6 +238,7 @@ if (isset($_GET['path'])) {
         </div>
         <div class="video-info-main-category">
             <?php
+            //display video information
             if (strpos($vid_category, '.') !== false) {
                 $vid_category = substr($vid_category, 0, strrpos($vid_category, "."));
             }
@@ -246,27 +248,4 @@ if (isset($_GET['path'])) {
     </div>
 </div>
 
-<?php
-echo $subtitle_url;
 
-
-function convertTimestampToSeconds($timestamp)
-{
-    $parts = explode(':', $timestamp);
-
-    if (count($parts) == 3) {
-        // Timestamp is in the format HH:MM:SS.sss
-        $hours = intval($parts[0]);
-        $minutes = intval($parts[1]);
-        $seconds = floatval($parts[2]);
-    } else if (count($parts) == 2) {
-        // Timestamp is in the format MM:SS.sss
-        $hours = 0;
-        $minutes = intval($parts[0]);
-        $seconds = floatval($parts[1]);
-    } else {
-        throw new Exception('Invalid timestamp format');
-    }
-
-    return $hours * 3600 + $minutes * 60 + $seconds;
-}

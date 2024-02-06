@@ -15,7 +15,7 @@ const videoContainer = document.querySelector(".video-container");
 const timelineContainer = document.querySelector(".timeline-container");
 const video = document.querySelector("video");
 
-
+//fetch time from when video starts playing, it is set in video.php
 video.currentTime = playPauseBtn.dataset.time;
 
 document.addEventListener("keydown", (e) => {
@@ -111,6 +111,7 @@ function toggleCaptions() {
   document.cookie = `captions=${captions.mode};path=/`;
 }
 
+//cookie that saves the setting of whether captions are on or off, makes it default for subsequent video loadings
 function getCaptionMode() {
   const cookies = document.cookie.split('; ');
   const captionCookie = cookies.find(row => row.startsWith('captions='));

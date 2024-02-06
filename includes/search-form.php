@@ -1,4 +1,4 @@
- <!-- Search -->
+ <!-- Search form, separated into its own file to avoid code duplication-->
  <div class="searchBox">
      <form id="search-form" action="<?php echo $search_script_path ?>search.php" method="GET">
          <div class="search-field">
@@ -36,7 +36,7 @@
                  </div>
 
 
-                 <!-- JavaScript -->
+                 <!-- JavaScript for info popup-->
                  <script>
                      function showInfoPopup() {
                          const infoPopup = document.getElementById('info-popup');
