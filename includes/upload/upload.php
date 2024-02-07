@@ -23,7 +23,7 @@ if (count($files) > 0) {
 
             $sql = "INSERT INTO videos (id, vid_category, search_category, vid_preacher, name, vid_title, vid_code, date, vid_url, thumb_url, pic_url, header_url, video_id, profile_id, main_category, clicks) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0)";
             $stmt = $conn->prepare($sql);
-            $stmt->bind_param("issssssssssssss", $data[0], $data[1], $data[2], $data[3], $data[4], $data[5], $data[6], $data[7], $data[8], $data[9], $data[10], $data[11], $data[12], $data[13], $data[14]);
+            $stmt->bind_param("issssssssssssss", $data[0], $data[1], $data[2], $data[3], $data[4], $data[5], $data[6], date('Y-m-d H:i:s', strtotime(stripslashes(trim($data[7]))) + 0), $data[8], $data[9], $data[10], $data[11], $data[12], $data[13], $data[14]);
 
             if ($stmt->execute() === false) {
                 echo 'Failed to import row: ' . implode(',', $data) . "\n";
