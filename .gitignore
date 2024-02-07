@@ -25,3 +25,6 @@ video/
 # information for Eclipse / Flash Builder.
 awstats-icon
 awstatsicons
+includes/upload/csv/archive/*.csv
+includes/upload/csv/error/*.csv
+includes/upload/csv/*.csv
