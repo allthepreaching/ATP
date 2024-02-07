@@ -13,9 +13,16 @@ $importedIds = [];
 
 if (count($files) > 0) {
     $file = $files[0]; // get the first csv file
-
+    $row = 0;
+    
     if (($handle = fopen($file, 'r')) !== false) {
         while (($data = fgetcsv($handle, 1000, ",")) !== false) {
+            // Skip the header row
+            if ($row == 0) {
+                $row++;
+                continue;
+            }
+
             // Remove trailing commas from each string value
             foreach ($data as $key => $value) {
                 $data[$key] = rtrim($value, ',');
