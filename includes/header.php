@@ -5,11 +5,51 @@ include_once 'dbh-live.php';
 // Start the session
 session_start();
 
-// Check if the search was submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//defaults for when video is not linked to
+$meta_type = 'article';
+$vid_title = 'ALLthePREACHING';
+$vid_category = 'Everything NIFB.';
+$thumb_url = 'https://www.allthepreaching.com/images/Pastor_Collage.png';
+//if video is linked to
+if (isset($_GET['path'])) {
+    $meta_type = 'video';
+    $parts = explode("/", $_GET['path']);
+    // Get the last part and remove the file extension
+    $vid_title = str_replace('_', ' ', pathinfo(end($parts), PATHINFO_FILENAME));
+    // Get the second part as the category info
+    $vid_category = str_replace('_', ' ', $parts[1]);
+    // Get the video ID from the URL
+    $file_path_no_extension = substr(urldecode($_GET['path']), 0, strrpos(urldecode($_GET['path']), '.'));
+    $vid_url = 'https://www.kjv1611only.com/video/' . $file_path_no_extension . '.mp4';
+    $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path='
+        . urlencode('video/' .  $file_path_no_extension . '.vtt');
+    $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
+    $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
+    if (isset($_GET["time"])) {
+        $vid_start_time = $_GET["time"] - 5;
+        //$vid_start_time = convertTimestampToSeconds($_GET["time"]) - 5;
+    } else {
+        $vid_start_time = 0;
+    }
+} elseif (isset($_GET['id'])) {
+    $vid_id = $_GET['id'];
+    $query = $conn->prepare("SELECT vid_url, vid_title, search_category FROM videos WHERE id = ?");
+    $query->bind_param("i", $vid_id); // "i" indicates the variable type is integer
 
-    // Store the state of the toggle/checkbox in a session variable
-    $_SESSION['search-toggle'] = isset($_POST['search-toggle']);
+    $query->execute();
+
+    $query->bind_result($vid_url, $vid_title, $vid_category);
+
+    if ($query->fetch()) {
+        $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
+        $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
+        $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path='
+            . urlencode(str_replace("https://www.kjv1611only.com/", "", $subtitle_url));
+    } else {
+        echo "No results found";
+    }
+
+    $query->close();
 }
 
 $cnt = "SELECT COUNT(*) AS count FROM `videos`";
@@ -33,11 +73,11 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
 
     <!-- META OG -->
     <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="ALLthePREACHING" />
-    <meta property="og:description" content="Everything NIFB." />
+    <meta property="og:type" content="<?php echo $meta_type ?>" />
+    <meta property="og:title" content="<?php echo $vid_title ?>" />
+    <meta property="og:description" content="<?php echo $vid_category ?>" />
     <meta property="og:url" content="http://www.allthepreaching.com" />
-    <meta property="og:image" content="https://www.allthepreaching.com/images/Pastor_Collage.png" />
+    <meta property="og:image" content="<?php echo $thumb_url ?>" />
     <meta property="og:image:alt" content="All The Preaching" />
 
     <!-- FAVICON -->

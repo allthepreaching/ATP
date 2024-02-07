@@ -1,61 +1,15 @@
 <?php
 
+//variables for all the things used below are in header.php so they can be used for URL preview
 include_once '../includes/header.php';
-global $vid_title;
-global $vid_category;
-global $subtitle_url;
-global $vid_url;
-global $thumb_url;
-global $vid_start_time;
-global $vtt_to_txt_url;
-global $vid_id;
+
 
 // Check if the 'id' parameter is set in the URL
-if (isset($_GET['path'])) {
-    $parts = explode("/", $_GET['path']);
-    // Get the last part and remove the file extension
-    $vid_title = str_replace('_', ' ', pathinfo(end($parts), PATHINFO_FILENAME));
-    // Get the second part as the category info
-    $vid_category = str_replace('_', ' ', $parts[1]);
-    // Get the video ID from the URL
-    $file_path_no_extension = substr(urldecode($_GET['path']), 0, strrpos(urldecode($_GET['path']), '.'));
-    $vid_url = 'https://www.kjv1611only.com/video/' . $file_path_no_extension . '.mp4';
-    $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path='
-        . urlencode('video/' .  $file_path_no_extension . '.vtt');
-    $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
-    $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
-    if (isset($_GET["time"])) {
-        $vid_start_time = $_GET["time"] - 5;
-        //$vid_start_time = convertTimestampToSeconds($_GET["time"]) - 5;
-    } else {
-        $vid_start_time = 0;
-    }
-} elseif (isset($_GET['id'])) {
-    $vid_id = $_GET['id'];
-    $query = $conn->prepare("SELECT vid_url, vid_title, search_category FROM videos WHERE id = ?");
-    $query->bind_param("i", $vid_id); // "i" indicates the variable type is integer
-
-    $query->execute();
-
-    $query->bind_result($vid_url, $vid_title, $vid_category);
-
-    if ($query->fetch()) {
-        $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
-        $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
-        $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path='
-            . urlencode(str_replace("https://www.kjv1611only.com/", "", $subtitle_url));
-    } else {
-        echo "No results found";
-    }
-
-    $query->close();
-} else {
-
+if (!isset($_GET['path']) && !isset($_GET['id'])) {
     // Redirect to the home page if the video ID is not set
     header('Location: ../index.php');
     exit();
 }
-
 
 ?>
 
@@ -248,4 +202,3 @@ if (isset($_GET['path'])) {
 </div>
 
 <?php
-
