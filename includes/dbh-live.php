@@ -1,7 +1,7 @@
 <?php
 
 $servername = "localhost";
-$dbUsername = "alltdjli_dev";
+$dbUsername = "alltdjli";
 $dbPassword = "Um+2W=$-N_b+";
 $dbName = "alltdjli_pas";
 
