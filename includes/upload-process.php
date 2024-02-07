@@ -3,13 +3,13 @@
 include_once 'dbh-live.php';
 
 // Prepare the SQL statement with placeholders for the values
-$sql = "INSERT INTO videos (id, vid_category, search_category, vid_preacher, name, vid_title, vid_code, date, vid_url, thumb_url, pic_url, header_url, video_id, profile_id, main_category) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+$sql = "INSERT INTO videos (id, vid_category, search_category, vid_preacher, name, vid_title, vid_code, date, vid_url, thumb_url, pic_url, header_url, video_id, profile_id, main_category, clicks) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0)";
 
 // Prepare the statement
 $stmt = $conn->prepare($sql);
 
 // Bind parameters
-$stmt->bind_param("sssssssssssssss", $id, $vid_category, $search_category, $vid_preacher, $name, $vid_title, $vid_code, $date, $vid_url, $thumb_url, $pic_url, $header_url, $video_id, $profile_id, $main_category);
+$stmt->bind_param("issssssssssssss", $id, $vid_category, $search_category, $vid_preacher, $name, $vid_title, $vid_code, $date, $vid_url, $thumb_url, $pic_url, $header_url, $video_id, $profile_id, $main_category);
 
 // Loop through the submitted values and execute the statement for each set of values
 foreach ($_POST['id'] as $key => $value) {
