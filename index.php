@@ -74,11 +74,9 @@
                         <span>want to track your soulwinning dates hours & salvations? <span class="highlight">click here</span>!</span>
                     </h6>
                 </a>
-                <a target="_blank" href="#contact">
-                    <h6>
-                        <span>SEND ME A hard drive & HAVE YOUR OWN COPY of the entire archive! message me <span class="highlight">here </span>for details!</span>
-                    </h6>
-                </a>
+                <h6>
+                    <span>SEND ME A hard drive OR <a target="_blank" href="https://www.kjv1611only.com/video/Download_All.pdf"><span class="highlight">download all</span></a> & HAVE a COPY of the archive! message me <a target="_blank" href="#contact"><span class="highlight">here </span></a> for details!</span>
+                </h6>
                 <a target="_blank" href="https://www.kjv1611only.com/Scourby_Bible_Readings.7z">
                     <h6>
                         <span>Missing the scourby audio visual bible from youtube? download the whole thing <span class="highlight">here</span>!</span>
