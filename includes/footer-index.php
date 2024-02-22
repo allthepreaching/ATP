@@ -41,7 +41,7 @@
                         <form id="form" action="process_form.php" method="post">
                             <div class="elem-group">
                                 <label for="full-name">Name</label>
-                                <input type="text" name="name" id="full-name" placeholder="Name" required>
+                                <input type="text" name="name" id="full-name" placeholder="Message name (subject)" required>
                                 <label for="email-address">Email Address</label>
                                 <input type="email" name="email" id="email-address" placeholder="email@email.com" required>
                                 <label for="message">Message</label>
