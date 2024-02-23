@@ -86,34 +86,6 @@ if (!isset($_GET['path']) && !isset($_GET['id'])) {
             </div>
 
 
-            <!-- TXT Container -->
-            <a href="<?php echo $vtt_to_txt_url; ?>">
-                <button class="mp3-btn tooltip">
-                    <span class="tooltiptext">Download TXT transcript</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
-
-                        <defs>
-                        </defs>
-                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
-                            <path d="M 77.474 17.28 L 61.526 1.332 C 60.668 0.473 59.525 0 58.311 0 H 15.742 c -2.508 0 -4.548 2.04 -4.548 4.548 v 80.904 c 0 2.508 2.04 4.548 4.548 4.548 h 58.516 c 2.508 0 4.549 -2.04 4.549 -4.548 V 20.496 C 78.807 19.281 78.333 18.138 77.474 17.28 z M 61.073 5.121 l 12.611 12.612 H 62.35 c -0.704 0 -1.276 -0.573 -1.276 -1.277 V 5.121 z M 15.742 3 h 42.332 v 13.456 c 0 2.358 1.918 4.277 4.276 4.277 h 13.457 v 33.2 H 14.194 V 4.548 C 14.194 3.694 14.888 3 15.742 3 z M 74.258 87 H 15.742 c -0.854 0 -1.548 -0.694 -1.548 -1.548 V 56.934 h 61.613 v 28.519 C 75.807 86.306 75.112 87 74.258 87 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                            <path d="M 34.604 62.687 h -8.816 c -0.829 0 -1.5 0.672 -1.5 1.5 s 0.671 1.5 1.5 1.5 h 2.908 v 15.164 c 0 0.828 0.671 1.5 1.5 1.5 s 1.5 -0.672 1.5 -1.5 V 65.687 h 2.908 c 0.829 0 1.5 -0.672 1.5 -1.5 S 35.432 62.687 34.604 62.687 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                            <path d="M 46.69 72.519 l 4.021 -7.599 c 0.387 -0.731 0.107 -1.64 -0.625 -2.027 c -0.729 -0.385 -1.639 -0.107 -2.027 0.625 l -3.065 5.794 l -3.066 -5.794 c -0.388 -0.732 -1.294 -1.012 -2.027 -0.625 c -0.732 0.388 -1.012 1.296 -0.624 2.027 l 4.02 7.599 l -4.02 7.599 c -0.388 0.731 -0.108 1.64 0.624 2.027 c 0.224 0.118 0.464 0.174 0.7 0.174 c 0.538 0 1.058 -0.29 1.327 -0.799 l 3.066 -5.794 l 3.065 5.794 c 0.27 0.509 0.789 0.799 1.327 0.799 c 0.237 0 0.477 -0.056 0.7 -0.174 c 0.732 -0.388 1.012 -1.296 0.625 -2.027 L 46.69 72.519 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                            <path d="M 64.212 62.687 h -8.815 c -0.828 0 -1.5 0.672 -1.5 1.5 s 0.672 1.5 1.5 1.5 h 2.908 v 15.164 c 0 0.828 0.672 1.5 1.5 1.5 s 1.5 -0.672 1.5 -1.5 V 65.687 h 2.907 c 0.828 0 1.5 -0.672 1.5 -1.5 S 65.04 62.687 64.212 62.687 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                        </g>
-                    </svg>
-                </button>
-            </a>
-
-            <!-- MP3 Container -->
-            <a href="<?php echo str_replace('.mp4', '.mp3', $vid_url); ?>">
-                <button class="mp3-btn tooltip">
-                    <span class="tooltiptext">Download MP3</span>
-                    <svg height="22" width="30" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.5 3.5H14V3.29289L13.8536 3.14645L13.5 3.5ZM10.5 0.5L10.8536 0.146447L10.7071 0H10.5V0.5ZM2.5 6.5L2.85355 6.14645C2.71055 6.00345 2.4955 5.96067 2.30866 6.03806C2.12182 6.11545 2 6.29777 2 6.5H2.5ZM3.5 7.5L3.14645 7.85355L3.5 8.20711L3.85355 7.85355L3.5 7.5ZM4.5 6.5H5C5 6.29777 4.87818 6.11545 4.69134 6.03806C4.5045 5.96067 4.28945 6.00345 4.14645 6.14645L4.5 6.5ZM6.5 6.5V6H6V6.5H6.5ZM12.5 6.5L12.9 6.8C13.0136 6.64849 13.0319 6.44579 12.9472 6.27639C12.8625 6.107 12.6894 6 12.5 6V6.5ZM11 8.5L10.6 8.2C10.4864 8.35151 10.4681 8.55421 10.5528 8.72361C10.6375 8.893 10.8106 9 11 9V8.5ZM2 5V1.5H1V5H2ZM13 3.5V5H14V3.5H13ZM2.5 1H10.5V0H2.5V1ZM10.1464 0.853553L13.1464 3.85355L13.8536 3.14645L10.8536 0.146447L10.1464 0.853553ZM2 1.5C2 1.22386 2.22386 1 2.5 1V0C1.67157 0 1 0.671573 1 1.5H2ZM1 12V13.5H2V12H1ZM2.5 15H12.5V14H2.5V15ZM14 13.5V12H13V13.5H14ZM12.5 15C13.3284 15 14 14.3284 14 13.5H13C13 13.7761 12.7761 14 12.5 14V15ZM1 13.5C1 14.3284 1.67157 15 2.5 15V14C2.22386 14 2 13.7761 2 13.5H1ZM3 11V6.5H2V11H3ZM2.14645 6.85355L3.14645 7.85355L3.85355 7.14645L2.85355 6.14645L2.14645 6.85355ZM3.85355 7.85355L4.85355 6.85355L4.14645 6.14645L3.14645 7.14645L3.85355 7.85355ZM4 6.5V11H5V6.5H4ZM6.5 7H7.5V6H6.5V7ZM7 11V8.5H6V11H7ZM7 8.5V6.5H6V8.5H7ZM7.5 8H6.5V9H7.5V8ZM8 7.5C8 7.77614 7.77614 8 7.5 8V9C8.32843 9 9 8.32843 9 7.5H8ZM7.5 7C7.77614 7 8 7.22386 8 7.5H9C9 6.67157 8.32843 6 7.5 6V7ZM10 7H12.5V6H10V7ZM12.1 6.2L10.6 8.2L11.4 8.8L12.9 6.8L12.1 6.2ZM11 9H11.5V8H11V9ZM11.5 10H10V11H11.5V10ZM12 9.5C12 9.77614 11.7761 10 11.5 10V11C12.3284 11 13 10.3284 13 9.5H12ZM11.5 9C11.7761 9 12 9.22386 12 9.5H13C13 8.67157 12.3284 8 11.5 8V9Z" fill="#ffffff" />
-                    </svg>
-                </button>
-            </a>
-
             <!-- Captions Container -->
             <button class="captions-btn tooltip">
                 <span class="tooltiptext">C</span>
@@ -178,17 +150,6 @@ if (!isset($_GET['path']) && !isset($_GET['id'])) {
     <div class="video-info">
         <div class="video-info-title">
             <?php echo $vid_title; ?>
-            <a style="cursor: pointer;">
-                <svg onclick="copyToClipboard()" style="margin-left: 30px;" height="40" width="40" fill="#dbab83" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483 483" xml:space="preserve">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                    <g id="SVGRepo_iconCarrier">
-                        <g>
-                            <path d="M395.72,0c-48.204,0-87.281,39.078-87.281,87.281c0,2.036,0.164,4.03,0.309,6.029l-161.233,75.674 c-15.668-14.971-36.852-24.215-60.231-24.215c-48.204,0.001-87.282,39.079-87.282,87.282c0,48.204,39.078,87.281,87.281,87.281 c15.206,0,29.501-3.907,41.948-10.741l69.789,58.806c-3.056,8.896-4.789,18.396-4.789,28.322c0,48.204,39.078,87.281,87.281,87.281 c48.205,0,87.281-39.078,87.281-87.281s-39.077-87.281-87.281-87.281c-15.205,0-29.5,3.908-41.949,10.74l-69.788-58.805 c3.057-8.891,4.789-18.396,4.789-28.322c0-2.035-0.164-4.024-0.308-6.029l161.232-75.674c15.668,14.971,36.852,24.215,60.23,24.215 c48.203,0,87.281-39.078,87.281-87.281C482.999,39.079,443.923,0,395.72,0z"></path>
-                        </g>
-                    </g>
-                </svg>
-            </a>
         </div>
         <div class="video-info-main-category">
             <?php
@@ -199,6 +160,53 @@ if (!isset($_GET['path']) && !isset($_GET['id'])) {
             ?>
         </div>
     </div>
+    <span style="margin-top: 30px;">
+        <!-- MP4 Download Container -->
+        <a href="<?php echo $vid_url; ?>">
+            <svg fill="#000000" height="40" width="40" version="1.1" id="XMLID_288_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g id="download">
+                        <g>
+                            <path d="M24,24H0v-8h2v6h20v-6h2V24z M12,18.4l-7.7-7.7l1.4-1.4l5.3,5.3V0h2v14.6l5.3-5.3l1.4,1.4L12,18.4z" fill="#dbab83"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <!-- MP3 Container -->
+        <a href="<?php echo str_replace('.mp4', '.mp3', $vid_url); ?>">
+            <svg style="margin-left: 30px;" height="40" width="40" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5 3.5H14V3.29289L13.8536 3.14645L13.5 3.5ZM10.5 0.5L10.8536 0.146447L10.7071 0H10.5V0.5ZM2.5 6.5L2.85355 6.14645C2.71055 6.00345 2.4955 5.96067 2.30866 6.03806C2.12182 6.11545 2 6.29777 2 6.5H2.5ZM3.5 7.5L3.14645 7.85355L3.5 8.20711L3.85355 7.85355L3.5 7.5ZM4.5 6.5H5C5 6.29777 4.87818 6.11545 4.69134 6.03806C4.5045 5.96067 4.28945 6.00345 4.14645 6.14645L4.5 6.5ZM6.5 6.5V6H6V6.5H6.5ZM12.5 6.5L12.9 6.8C13.0136 6.64849 13.0319 6.44579 12.9472 6.27639C12.8625 6.107 12.6894 6 12.5 6V6.5ZM11 8.5L10.6 8.2C10.4864 8.35151 10.4681 8.55421 10.5528 8.72361C10.6375 8.893 10.8106 9 11 9V8.5ZM2 5V1.5H1V5H2ZM13 3.5V5H14V3.5H13ZM2.5 1H10.5V0H2.5V1ZM10.1464 0.853553L13.1464 3.85355L13.8536 3.14645L10.8536 0.146447L10.1464 0.853553ZM2 1.5C2 1.22386 2.22386 1 2.5 1V0C1.67157 0 1 0.671573 1 1.5H2ZM1 12V13.5H2V12H1ZM2.5 15H12.5V14H2.5V15ZM14 13.5V12H13V13.5H14ZM12.5 15C13.3284 15 14 14.3284 14 13.5H13C13 13.7761 12.7761 14 12.5 14V15ZM1 13.5C1 14.3284 1.67157 15 2.5 15V14C2.22386 14 2 13.7761 2 13.5H1ZM3 11V6.5H2V11H3ZM2.14645 6.85355L3.14645 7.85355L3.85355 7.14645L2.85355 6.14645L2.14645 6.85355ZM3.85355 7.85355L4.85355 6.85355L4.14645 6.14645L3.14645 7.14645L3.85355 7.85355ZM4 6.5V11H5V6.5H4ZM6.5 7H7.5V6H6.5V7ZM7 11V8.5H6V11H7ZM7 8.5V6.5H6V8.5H7ZM7.5 8H6.5V9H7.5V8ZM8 7.5C8 7.77614 7.77614 8 7.5 8V9C8.32843 9 9 8.32843 9 7.5H8ZM7.5 7C7.77614 7 8 7.22386 8 7.5H9C9 6.67157 8.32843 6 7.5 6V7ZM10 7H12.5V6H10V7ZM12.1 6.2L10.6 8.2L11.4 8.8L12.9 6.8L12.1 6.2ZM11 9H11.5V8H11V9ZM11.5 10H10V11H11.5V10ZM12 9.5C12 9.77614 11.7761 10 11.5 10V11C12.3284 11 13 10.3284 13 9.5H12ZM11.5 9C11.7761 9 12 9.22386 12 9.5H13C13 8.67157 12.3284 8 11.5 8V9Z" fill="#dbab83" />
+            </svg>
+        </a>
+        <!-- TXT Container -->
+        <a href="<?php echo $vtt_to_txt_url; ?>">
+            <svg fill="#dbab83" style="margin-left: 30px;" height="40" width="40" version="1.1" id="XMLID_39_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g id="document-txt">
+                        <path d="M18.4,0H4v9h2V2h10v6h6v14H4v2h20V5.6L18.4,0z M18,2.4L21.6,6H18V2.4z"></path>
+                        <path d="M6,14H4v6H2v-6H0v-2h2h2h2V14z M20,12h-2h-2h-2v2h2v6h2v-6h2V12z M13.6,20L11,15.8l2.4-3.8h-2.2l-1.3,2.1L8.6,12H6.4 l2.4,3.8L6.2,20h2.2l1.5-2.4l1.5,2.4H13.6z"></path>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <!-- Share button -->
+        <a style="cursor: pointer;">
+            <svg onclick="copyToClipboard()" style="margin-left: 30px;" height="40" width="40" fill="#dbab83" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483 483" xml:space="preserve">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g>
+                        <path d="M395.72,0c-48.204,0-87.281,39.078-87.281,87.281c0,2.036,0.164,4.03,0.309,6.029l-161.233,75.674 c-15.668-14.971-36.852-24.215-60.231-24.215c-48.204,0.001-87.282,39.079-87.282,87.282c0,48.204,39.078,87.281,87.281,87.281 c15.206,0,29.501-3.907,41.948-10.741l69.789,58.806c-3.056,8.896-4.789,18.396-4.789,28.322c0,48.204,39.078,87.281,87.281,87.281 c48.205,0,87.281-39.078,87.281-87.281s-39.077-87.281-87.281-87.281c-15.205,0-29.5,3.908-41.949,10.74l-69.788-58.805 c3.057-8.891,4.789-18.396,4.789-28.322c0-2.035-0.164-4.024-0.308-6.029l161.232-75.674c15.668,14.971,36.852,24.215,60.23,24.215 c48.203,0,87.281-39.078,87.281-87.281C482.999,39.079,443.923,0,395.72,0z"></path>
+                    </g>
+                </g>
+            </svg>
+        </a>
+    </span>
 </div>
 
 <?php
