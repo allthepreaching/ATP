@@ -280,6 +280,8 @@
                                     <p class="text-center">
                                         <a target="_blank" href="https://faithfulwordbaptist.org/"><i class="fa fa-globe heading-b"></i>
                                         </a>
+                                        <a target="_blank" href="https://rumble.com/c/c-3061998"><i class="fa fa-globe heading-b"></i>
+                                        </a>
                                         <a target="_blank" href="https://www.facebook.com/Faithful-Word-Baptist-Church-183465927963/"><i class="fa fa-facebook heading-b"></i>
                                         </a>
                                         <a target="_blank" href="https://twitter.com/sanderson1611"><i class="fa fa-twitter heading-b"></i></a>
@@ -304,9 +306,11 @@
                                     <p class="text-center">
                                         <a target="_blank" href="https://veritybaptist.com/"><i class="fa fa-globe heading-b"></i>
                                         </a>
+                                        <a target="_blank" href="https://www.bannedbutnotbound.com/"><i class="fa fa-globe heading-b"></i>
+                                        </a>
                                         <a target="_blank" href="https://www.facebook.com/Verity-Baptist-Church-116877921704113/"><i class="fa fa-facebook heading-b"></i>
                                         </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCQopsYsVMtqqE3KzZee9cig"><i class="fa fa-youtube heading-b"></i>
+                                        <a target="_blank" href="https://rumble.com/user/VerityBaptistChurch"><i class="fa fa-globe heading-b"></i>
                                         </a>
                                     </p>
                                 </div>
@@ -333,15 +337,9 @@
                                         </a>
                                         <a target="_blank" href="https://twitter.com/StedfastK"><i class="fa fa-twitter heading-b"></i>
                                         </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCXNJ6pOt6KFMnovAvGTzA1Q"><i class="fa fa-youtube heading-b"></i>
+                                        <a target="_blank" href="https://rumble.com/user/StedfastBaptistChurch"><i class="fa fa-globe heading-b"></i>
                                         </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCME6qWkV2zQR6lkkbG8Vxiw"><i class="fa fa-youtube heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/c/PureWordsBaptistChurch"><i class="fa fa-youtube heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UC-b_sYQzzMa3MDGYscLxRPg"><i class="fa fa-youtube heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCtdvPBFPtcBUX5FJNQRd2tw"><i class="fa fa-youtube heading-b"></i>
+                                        <a target="_blank" href="https://rumble.com/c/TheBaptistBias"><i class="fa fa-globe heading-b"></i>
                                         </a>
                                     </p>
                                 </div>
@@ -351,8 +349,7 @@
                             <p>
                                 <span class="title">Pastor Jonathan Shelley</span>
                                 <br />
-                                <span class="highlight">Stedfast Baptist Church TX</span><br>
-                                <span class="highlight">Stedfast Baptist Church OK</span><br>
+                                <span class="highlight">Stedfast Baptist Church</span><br>
                                 <span class="highlight">Pure Words Baptist Church</span>
                             </p>
                         </div>
@@ -391,8 +388,6 @@
                                 <div>
                                     <p class="text-center text-uppercase heading-b">
                                         <a target="_blank" href="https://stedfastbaptistkjv.org/"><i class="fa fa-globe heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCLLYJjgvjfyOM-GE69wN7vA"><i class="fa fa-youtube heading-b"></i>
                                         </a>
                                     </p>
                                     <div class="separator-small"></div>
@@ -693,7 +688,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
-                            <img alt="Deacon Corbin Ressl" src="images/boldmen/Bro_Cooper.png" title="Deacon Corbin Ressl" class="fluid-width">
+                            <img alt="Brother Raymond Cooper" src="images/boldmen/Bro_Cooper.png" title="Brother Raymond Cooper" class="fluid-width">
                             <div class="overlay background-90-b">
                                 <div>
                                     <div class="separator-small"></div>
@@ -712,7 +707,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
-                            <img alt="Brother Jared Pozarnsky" src="images/boldmen/Bro_Kiefer.png" title="Pastor Jared Pozarnsky" class="fluid-width">
+                            <img alt="Brother David Kiefer" src="images/boldmen/Bro_Kiefer.png" title="Brother David Kiefer" class="fluid-width">
                             <div class="overlay background-90-b">
                                 <div>
                                     <div class="separator-small"></div>
@@ -726,6 +721,32 @@
                                 <span class="title">brother david kiefer</span>
                                 <br />
                                 <span class="highlight">Faithful Word Baptist Church</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6  col-xs-6">
+                        <div class="hover-overlay">
+                            <img alt="Pastor Ian Taverner" src="https://allthepreaching.com/images/boldmen/Pastor_Taverner.png" title="Pastor Ian Taverner" class="fluid-width">
+                            <div class="overlay background-90-b">
+                                <div>
+                                    <div class="separator-small"></div>
+                                    <p class="text-center">
+                                        <a target="_blank" href="https://rumble.com/c/STBCUK"><i class="fa fa-globe heading-b"></i>
+                                        </a>
+                                        <a target="_blank" href="https://www.youtube.com/@STBCUK"><i class="fa fa-youtube heading-b"></i></a>
+                                        <a target="_blank" href="https://www.stbc.uk/"><i class="fa fa-globe heading-b"></i>
+                                        </a>
+                                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100082983158600"><i class="fa fa-facebook heading-b"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <span class="title">Pastor Ian Taverner</span>
+                                <br />
+                                <span class="highlight">Strong Tower Baptist Church</span>
                             </p>
                         </div>
                     </div>
