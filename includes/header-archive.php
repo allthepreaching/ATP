@@ -187,6 +187,7 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
                             <li><a target="_blank" href="https://holdfastbaptist.com/">Pastor Jared Pozarnsky Hold Fast Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/P22giCnn6DV6HPoG8">Fresno, CA</a></li>
                             <li><a target="_blank" href="https://blessedhopebaptistchurch.org.au/">Pastor Kevin Sepulveda Blessed Hope Baptist Church & New Life Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/9YuM5JNKzU3rCHrQ6">NSW, AU</a></li>
                             <li><a target="_blank" href="http://veritybaptistmanila.com/index.html">Pastor Matthew Stucky Verity Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/mzjG3QgQk16V5wtN8">Manila, Philippines</a></li>
+                            <li><a target="_blank" href="https://www.stbc.uk/">Pastor Ian Taverner Strong Tower Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/mzjG3QgQk16V5wtN8">Southend-on-Sea, UK</a></li>
                             <li><a target="_blank" href="https://www.kevinkjv.com">Brother Kevin Roe of KevinKJV.com</a></li>
                             <li><a target="_blank" href="https://bannedpreaching.com/">Brother Thomas Coletto of BannedPreaching.com</a></li>
                             <li><a target="_blank" href="https://framingtheworld.com/">Brother Paul Wittenberger of FramingTheWorld.com</a></li>
