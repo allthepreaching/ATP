@@ -1834,22 +1834,29 @@
                 </a>
             </div>
             <div class="col-md-3">
+                <a href="#sctaverner">
+                    <h5>
+                        Pastor Ian Taverner
+                    </h5>
+                </a>
+            </div>
+            <div class="col-md-3">
                 <a href="#scjimenez">
                     <h5>
                         Pastor Roger Jimenez
                     </h5>
                 </a>
             </div>
-            <div class="col-md-3">
+        </div>
+        <hr>
+        <div class="row">
+        <div class="col-md-3">
                 <a href="#scjones">
                     <h5>
                         Pastor joe jones
                     </h5>
                 </a>
             </div>
-        </div>
-        <hr>
-        <div class="row">
             <div class="col-md-3">
                 <a href="#scmejia">
                     <h5>
@@ -1871,27 +1878,19 @@
                     </h5>
                 </a>
             </div>
-            <div class="col-md-3">
+        <hr>
+        <div class="row">
+        <div class="col-md-3">
                 <a href="#scstucky">
                     <h5>
                         pastor matthew stucky
                     </h5>
                 </a>
             </div>
-        </div>
-        <hr>
-        <div class="row">
             <div class="col-md-3">
                 <a href="#scthompson">
                     <h5>
                         Pastor Aaron Thompson
-                    </h5>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="">
-                    <h5>
-                        <br>
                     </h5>
                 </a>
             </div>
@@ -4484,7 +4483,94 @@
         </div>
     </div>
 </section>
+<!--        preaching section clips taverner      -->
 
+<section class="colors-g page-transition non-preloading" id="sctaverner">
+    <div class="container" data-animation="fadeInDown">
+        <br><br><br><br><br><br>
+        <hr>
+        <h2 class="highlight">
+            Sermon Clips<br>Pastor ian Taverner
+        </h2>
+        <h6>
+            <a href="#sermonclips" class="hover-effect">
+                Back to <span class="highlight">sermon clips Menu</span>
+            </a>
+        </h6>
+        <hr>
+        <div class="row">
+            <?php
+            $countQuery = $cnt;
+            $countResult = mysqli_query($conn, $countQuery);
+            while ($row = mysqli_fetch_assoc($countResult)) {
+                $countOutput = $row['count'];
+            }
+            $codeQuery = $conn->query("SELECT * FROM videos WHERE vid_category = 'sctaverner' ORDER BY name ASC");
+            $codes = $codeQuery->fetch_all(MYSQLI_ASSOC);
+            $codeCount = count($codes);
+            $base = floor($codeCount / COLUMNS);
+            $remainder = $codeCount % COLUMNS;
+            $chunks = [];
+            for ($start = 0; $start < $codeCount; $start += $length) {
+                $length = $base + ($remainder-- > 0 ? 1 : 0);
+                $chunks[] = array_slice($codes, $start, $length);
+            }
+            ?>
+
+            <!-- COLUMN 1 -->
+            <div class="col-md-3">
+                <ul class="simple">
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div class="col-md-3">
+                <ul class="simple">
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+
+            <!-- COLUMN 3 -->
+            <div class="col-md-3">
+                <ul class="simple">
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+
+            <!-- COLUMN 4 -->
+            <div class="col-md-3">
+                <ul class="simple">
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--        preaching section clips jimenez      -->
 
