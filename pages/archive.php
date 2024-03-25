@@ -9946,12 +9946,6 @@
         <br><br><br><br><br><br>
         <hr>
         <h2><span class="highlight">music</span></h2>
-
-        <a target="_blank" target="_blank" href="https://www.kjv1611only.com/video/AllMusic.zip">
-            <h6>
-                <span class="thin-font-weight">want all the music in our music section? download a zip file <span class="highlight thin-font-weight">here</span>!</span>
-            </h6>
-        </a>
         <hr>
         <div class="row">
             <div class="col-md-3">
@@ -9996,11 +9990,6 @@
         <h6>
             <a href="#music" class="hover-effect">
                 Back to <span class="highlight">music</span>
-            </a>
-        </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/Hymns.zip" class="hover-effect">
-                for a zip file of all the hymns on this page <span class="highlight">click here!</span>
             </a>
         </h6>
         <hr>
@@ -10090,11 +10079,6 @@
                 Back to <span class="highlight">music</span>
             </a>
         </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/Other.zip" class="hover-effect">
-                for a zip file of all the other music on this page <span class="highlight">click here!</span>
-            </a>
-        </h6>
         <hr>
         <div class="row">
             <?php
@@ -10180,11 +10164,6 @@
         <h6>
             <a href="#music" class="hover-effect">
                 Back to <span class="highlight">music</span>
-            </a>
-        </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/Psalms.zip">
-                for a zip file of all the psalms on this page <span class=" highlight">click here!</span>
             </a>
         </h6>
         <hr>
@@ -10275,11 +10254,6 @@
                 Back to <span class="highlight">music</span>
             </a>
         </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/FWBC_Collection.zip" class="hover-effect">
-                for a zip file of all the volumes on this page <span class="highlight">click here!</span>
-            </a>
-        </h6>
         <hr>
         <div class="row">
             <div class="col-md-3">
@@ -10349,11 +10323,6 @@
         <h6>
             <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
-            </a>
-        </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_1.zip" class="hover-effect">
-                for a zip file of volume 1 <span class="highlight">click here!</span>
             </a>
         </h6>
         <hr>
@@ -10444,11 +10413,6 @@
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_2.zip" class="hover-effect">
-                for a zip file of volume 2 <span class="highlight">click here!</span>
-            </a>
-        </h6>
         <hr>
         <div class="row">
             <?php
@@ -10535,11 +10499,6 @@
         <h6>
             <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
-            </a>
-        </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_3.zip" class="hover-effect">
-                for a zip file of volume 3 <span class="highlight">click here!</span>
             </a>
         </h6>
         <hr>
@@ -10630,11 +10589,6 @@
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_4.zip" class="hover-effect">
-                for a zip file of volume 4 <span class="highlight">click here!</span>
-            </a>
-        </h6>
         <hr>
         <div class="row">
             <?php
@@ -10723,11 +10677,6 @@
                 Back to <span class="highlight">fwbc hymn collection</span>
             </a>
         </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_5.zip" class="hover-effect">
-                for a zip file of volume 5 <span class="highlight">click here!</span>
-            </a>
-        </h6>
         <hr>
         <div class="row">
             <?php
@@ -10814,11 +10763,6 @@
         <h6>
             <a href="#mufwbccol" class="hover-effect">
                 Back to <span class="highlight">fwbc hymn collection</span>
-            </a>
-        </h6>
-        <h6>
-            <a target="_blank" href="https://www.kjv1611only.com/video/13music/FWBC_Collection/Vol_6.zip" class="hover-effect">
-                for a zip file of volume 6 <span class="highlight">click here!</span>
             </a>
         </h6>
         <hr>

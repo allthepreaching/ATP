@@ -15,6 +15,7 @@
         "boldmen",
         "burneth",
         "buymeacoffee",
+        "Capa",
         "Coletto",
         "Corbin",
         "Cscript",
@@ -130,13 +131,15 @@
         "swtips",
         "swwberzins",
         "textillate",
+        "tooltiptext",
         "trib",
         "trustlogo",
         "ugetube",
         "whoremongers",
         "whoweare",
         "Wittenberger",
-        "worketh"
+        "worketh",
+        "XMLID"
     ],
     "ignoreWords": [],
     "import": []
