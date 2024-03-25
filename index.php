@@ -61,7 +61,7 @@
                 </a>
                 <a target="_blank" href="https://bmc.link/allthepreaching">
                     <h6>
-                        <span>want to help me to keep developing this site? <span class="highlight">Click here to buy me a coffee</span>!</span>
+                        <span>want to help us to keep developing this site? <span class="highlight">Click here to buy us a coffee</span>!</span>
                     </h6>
                 </a>
                 <a target="_blank" href="https://flipbookpdf.net/web/site/8073761ea240888c8d70d8703b267fb30e9f0538202208.pdf.html">
@@ -75,7 +75,7 @@
                     </h6>
                 </a>
                 <h6>
-                    <span>SEND ME A hard drive OR <a target="_blank" href="https://www.kjv1611only.com/video/Download_All.pdf"><span class="highlight">download all</span></a> & HAVE a COPY of the archive! message me <a target="_blank" href="#contact"><span class="highlight">here </span></a> for details!</span>
+                    <span>SEND us A hard drive OR <a target="_blank" href="https://www.kjv1611only.com/video/Download_All.pdf"><span class="highlight">download all</span></a> & HAVE a COPY of the archive! message us <a target="_blank" href="#contact"><span class="highlight">here </span></a> for details!</span>
                 </h6>
             </div>
         </div>
