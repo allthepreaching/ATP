@@ -77,16 +77,6 @@
                 <h6>
                     <span>SEND ME A hard drive OR <a target="_blank" href="https://www.kjv1611only.com/video/Download_All.pdf"><span class="highlight">download all</span></a> & HAVE a COPY of the archive! message me <a target="_blank" href="#contact"><span class="highlight">here </span></a> for details!</span>
                 </h6>
-                <a target="_blank" href="https://www.kjv1611only.com/Scourby_Bible_Readings.7z">
-                    <h6>
-                        <span>Missing the scourby audio visual bible from youtube? download the whole thing <span class="highlight">here</span>!</span>
-                    </h6>
-                </a>
-                <a target="_blank" href="https://www.kjv1611only.com/video/AllMusic.zip">
-                    <h6>
-                        <span>want mp3 versions of all the music in our music section? download a zip file <span class="highlight">here</span>!</span>
-                    </h6>
-                </a>
             </div>
         </div>
     </div>
