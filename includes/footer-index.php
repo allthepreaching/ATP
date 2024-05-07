@@ -37,7 +37,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <form id="form" action="process_form.php" method="post">
                             <div class="elem-group">
                                 <label for="subject">Subject</label>
@@ -56,7 +56,7 @@
                                 }
                             }
                         </script>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
