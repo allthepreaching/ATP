@@ -37,26 +37,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- <div class="col-md-6">
-                        <form id="form" action="process_form.php" method="post">
-                            <div class="elem-group">
-                                <label for="subject">Subject</label>
-                                <input type="text" name="subject" id="subject" placeholder="Message title" required>
-                                <label for="email-address">Email Address</label>
-                                <input type="email" name="email" id="email-address" placeholder="email@email.com" required>
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" placeholder="Message" required></textarea>
-                            </div>
-                            <button class="form-button-submit" type="submit">Send Message</button>
-                        </form>
-                        <script>
-                            window.onbeforeunload = () => {
-                                for (const form of document.getElementsByTagName('form')) {
-                                    form.reset();
-                                }
-                            }
-                        </script>
-                    </div> -->
                 </div>
             </div>
         </div>
