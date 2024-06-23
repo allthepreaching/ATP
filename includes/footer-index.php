@@ -47,7 +47,7 @@
                                 <label for="message">Message</label>
                                 <textarea id="message" name="message" placeholder="Message" required></textarea>
                             </div>
-                            <button class="form-button-submit" type="submit">Send Message</button>
+                            <button class="form-button-submit" disabled type="submit">Send Message</button>
                         </form>
                         <script>
                             window.onbeforeunload = () => {
