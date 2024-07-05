@@ -835,7 +835,7 @@
     <div class="view">
         <div class="content colors-e background-solid">
             <div class="container">
-                <a target="_blank" href="https://www.kjv1611only.com/video/01salvation/The_Bible_Way_To_Heaven.mp4">
+                <a target="_blank" href="https://www.kjv1611only.com/video/01salvation/Pastor_Anderson.mp4">
                     <h2>
                         The Bible way <span class="highlight">To Heaven</span>
                     </h2>
