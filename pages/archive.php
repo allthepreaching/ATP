@@ -1796,13 +1796,6 @@
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#scpowell">
-                    <h5>
-                        Bro. Matt Powell
-                    </h5>
-                </a>
-            </div>
-            <div class="col-md-3">
                 <a href="#scsegura">
                     <h5>
                         Bro. Chris Segura
@@ -1812,13 +1805,10 @@
             <div class="col-md-3">
                 <a href="#scressl">
                     <h5>
-                        Deacon Corbin Ressl
+                        pastor Corbin Ressl
                     </h5>
                 </a>
             </div>
-        </div>
-        <hr>
-        <div class="row">
             <div class="col-md-3">
                 <a href="#scanderson">
                     <h5>
@@ -1826,13 +1816,9 @@
                     </h5>
                 </a>
             </div>
-            <div class="col-md-3">
-                <a href="#scberzins">
-                    <h5>
-                        Pastor Dave Berzins
-                    </h5>
-                </a>
-            </div>
+        </div>
+        <hr>
+        <div class="row">
             <div class="col-md-3">
                 <a href="#sctaverner">
                     <h5>
@@ -1847,27 +1833,10 @@
                     </h5>
                 </a>
             </div>
-        </div>
-        <hr>
-        <div class="row">
-        <div class="col-md-3">
-                <a href="#scjones">
-                    <h5>
-                        Pastor joe jones
-                    </h5>
-                </a>
-            </div>
             <div class="col-md-3">
                 <a href="#scmejia">
                     <h5>
                         Pastor Bruce Mejia
-                    </h5>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="#scpozarnsky">
-                    <h5>
-                        Pastor Jared Pozarnsky
                     </h5>
                 </a>
             </div>
@@ -1878,9 +1847,10 @@
                     </h5>
                 </a>
             </div>
+        </div>
         <hr>
         <div class="row">
-        <div class="col-md-3">
+            <div class="col-md-3">
                 <a href="#scstucky">
                     <h5>
                         pastor matthew stucky
@@ -1909,7 +1879,6 @@
                 </a>
             </div>
         </div>
-        <hr>
     </div>
 </section>
 
@@ -1959,13 +1928,6 @@
         <hr>
         <div class="row">
             <div class="col-md-3">
-                <a href="#fspowell">
-                    <h5>
-                        Bro. Matt Powell
-                    </h5>
-                </a>
-            </div>
-            <div class="col-md-3">
                 <a href="#fssegura">
                     <h5>
                         Bro. Chris Segura
@@ -1975,7 +1937,7 @@
             <div class="col-md-3">
                 <a href="#fsressl">
                     <h5>
-                        Deacon Corbin Ressl
+                        pastor Corbin Ressl
                     </h5>
                 </a>
             </div>
@@ -1986,16 +1948,6 @@
                     </h5>
                 </a>
             </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-3">
-                <a href="#fsberzins">
-                    <h5>
-                        Pastor Dave Berzins
-                    </h5>
-                </a>
-            </div>
             <div class="col-md-3">
                 <a href="#fstaverner">
                     <h5>
@@ -2003,6 +1955,9 @@
                     </h5>
                 </a>
             </div>
+        </div>
+        <hr>
+        <div class="row">
             <div class="col-md-3">
                 <a href="#fsjimenez">
                     <h5>
@@ -2011,16 +1966,6 @@
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fsjones">
-                    <h5>
-                        Pastor Joe Jones
-                    </h5>
-                </a>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-3">
                 <a href="#fsmejia">
                     <h5>
                         Pastor Bruce Mejia
@@ -2028,16 +1973,9 @@
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fspozarnsky">
+                <a href="#fsthompson">
                     <h5>
-                        Pastor Jared Pozarnsky
-                    </h5>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="#fsrobinson">
-                    <h5>
-                        Pastor Jason Robinson
+                        Pastor Aaron Thompson
                     </h5>
                 </a>
             </div>
@@ -2051,7 +1989,7 @@
         </div>
         <hr>
         <div class="row">
-        <div class="col-md-3">
+            <div class="col-md-3">
                 <a href="#fsshelley">
                     <h5>
                         Pastor Jonathan Shelley
@@ -2066,9 +2004,9 @@
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="#fsthompson">
+                <a href="">
                     <h5>
-                        Pastor Aaron Thompson
+
                     </h5>
                 </a>
             </div>
@@ -4226,7 +4164,7 @@
         <br><br><br><br><br><br>
         <hr>
         <h2 class="highlight">
-            Sermon Clips<br>Deacon corbin Ressl
+            Sermon Clips<br>pastor corbin Ressl
         </h2>
         <h6>
             <a href="#sermonclips" class="hover-effect">
@@ -5736,7 +5674,7 @@
         <br><br><br><br><br><br>
         <hr>
         <h2 class="highlight">
-            Sermons<br>Deacon Corbin Ressl
+            Sermons<br>pastor Corbin Ressl
         </h2>
         <h6>
             <a href="#fullsermons" class="hover-effect">

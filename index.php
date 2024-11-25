@@ -9,39 +9,14 @@
                 <p class="home-heading-size">
                     <span>EVERYTHING</span><span class="highlight"> NIFB</span>.
                 </p>
-                <h4>
-                    <span class="yellow-highlight">&rarr;</span> we are now hosting
-                    <span class="yellow-highlight">
-                        <?php
-                        $query = "SELECT * FROM videos WHERE vid_category NOT LIKE 'newest'";
-                        $result = mysqli_query($conn, $query);
-                        $vidTotal = mysqli_num_rows($result);
-                        echo number_format($vidTotal);
-                        ?>
-                    </span>
-                    videos and counting!
-                    <span class="yellow-highlight">&larr;</span>
-                </h4>
                 <p class="title">
                     one <span class="highlight"> site&nbsp;</span>
                     ||&nbsp;every <span class="highlight"> video&nbsp;</span>
                     ||&nbsp;all <span class="highlight"> nifb </span>
                 </p>
                 <div class="social-media">
-                    <a target="_blank" href="https://www.facebook.com/allthepreaching">
-                        <img src="images/icons/iconFB.png" alt="Facebook Icon Link" width="75px">
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/allthepreaching/">
-                        <img src="images/icons/iconIG.png" alt="Instagram Icon Link" width="75px">
-                    </a>
                     <a target="_blank" style="margin-right: 8px" href="https://bmc.link/allthepreaching">
                         <img src="images/icons/iconBMC.png" alt="Buy Me Coffee Icon Link" width="60px">
-                    </a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCiUIhW4qAvrjaHSEue0ANQQ">
-                        <img src="images/icons/iconYT.png" alt="YouTube Icon Link" width="60px">
-                    </a>
-                    <a target="_blank" style="margin-left: 10px" href="https://github.com/allthepreaching">
-                        <img src="images/icons/iconGH.png" alt="GitHub Icon Link" width="60px">
                     </a>
                 </div>
                 <a href="pages/new.php">
@@ -75,7 +50,7 @@
                     </h6>
                 </a>
                 <h6>
-                    <span>SEND us A hard drive OR <a target="_blank" href="https://www.kjv1611only.com/video/Download_All.pdf"><span class="highlight">download all</span></a> & HAVE a COPY of the archive! message us <a target="_blank" href="#contact"><span class="highlight">here </span></a> for details!</span>
+                    <span><a target="_blank" href="https://www.kjv1611only.com/video/Download_All.pdf"><span class="highlight">download all</span></a> & HAVE a COPY of the archive! message us <a target="_blank" href="#contact"><span class="highlight">here </span></a> for details!</span>
                 </h6>
             </div>
         </div>
@@ -147,7 +122,7 @@
                                 NIFB <span class="highlight">Pastors</span>
                             </h4>
                             <p>
-                                Steven Anderson | Roger Jimenez Jonathan Shelley | Dave Berzins <br>Joe Jones | Aaron Thompson <br> Jason Robinson | Bruce Mejia <br> Jared Pozarnsky | Kevin Sepulveda
+                                Steven Anderson | Roger Jimenez <br> Jonathan Shelley | Aaron Thompson <br> Bruce Mejia | Kevin Sepulveda
                             </p>
                         </div>
                     </div>
@@ -160,7 +135,7 @@
                                 NIFB <span class="highlight">CHURCHES</span>
                             </h4>
                             <p>
-                                Faithful Word AZ | Verity CA | Stedfast TX & Pure Words TX | Stronghold GA | Shield of Faith ID | Sure Foundation WA| Mountain WV | First Works CA | Hold Fast CA | Blessed Hope & New Life AU |
+                                Faithful Word AZ | Verity CA <br> Stedfast TX | Sure Foundation WA <br> First Works CA | Blessed Hope & New Life AU
                             </p>
                         </div>
                     </div>
@@ -346,34 +321,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
-                            <img alt="Pastor Dave Berzins" src="images/boldmen/Pastor_Berzins.png" title="Pastor Dave Berzins" class="fluid-width">
-                            <div class="overlay background-90-b">
-                                <div>
-                                    <div class="separator-small"></div>
-                                    <p class="text-center">
-                                        <a target="_blank" href="http://strongholdbaptist.church/"><i class="fa fa-globe heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.facebook.com/strongholdbaptist/"><i class="fa fa-facebook heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCDBstuREtFltg_zaOo3I0bA"><i class="fa fa-youtube heading-b"></i>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="caption">
-                            <p>
-                                <span class="title">Pastor Dave Berzins</span>
-                                <br />
-                                <span class="highlight">Stronghold Baptist Church</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6  col-xs-6">
-                        <div class="hover-overlay">
-                            <img alt="Brother Chris Segura" src="images/boldmen/Bro_Awes.png" title="Brother Chris Segura" class="fluid-width">
+                            <img alt="Brother Dillon Awes" src="images/boldmen/Bro_Awes.png" title="Brother Dillon Awes" class="fluid-width">
                             <div class="overlay background-90-b">
                                 <div>
                                     <p class="text-center text-uppercase heading-b">
@@ -394,6 +342,9 @@
                             </p>
                         </div>
                     </div>
+                </div>
+
+                <div class="row">
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
                             <img alt="Pastor Aaron Thompson" src="images/boldmen/Pastor_Thompson.png" title="Pastor Aaron Thompson" class="fluid-width">
@@ -423,31 +374,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6  col-xs-6">
-                        <div class="hover-overlay">
-                            <img alt="Pastor Jason Robinson" src="images/boldmen/Pastor_Robinson.png" title="Pastor Jason Robinson" class="fluid-width">
-                            <div class="overlay background-90-b">
-                                <div>
-                                    <div class="separator-small"></div>
-                                    <p class="text-center">
-                                        <a target="_blank" href="https://mountainbaptist.org/"><i class="fa fa-globe heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.facebook.com/MountainBaptistWV/"><i class="fa fa-facebook heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCKxloPrZXfHPQ-MoVfBhqLw"><i class="fa fa-youtube heading-b"></i>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="caption">
-                            <p>
-                                <span class="title">Pastor Jason Robinson</span>
-                                <br />
-                                <span class="highlight">Mountain Baptist Church</span>
-                            </p>
-                        </div>
-                    </div>
+
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
                             <img alt="Pastor Bruce Mejia" src="images/boldmen/Pastor_Mejia.png" title="Pastor Bruce Mejia" class="fluid-width">
@@ -475,8 +402,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
                             <img alt="Brother Chris Segura" src="images/boldmen/Bro_Segura.png" title="Brother Chris Segura" class="fluid-width">
@@ -504,52 +429,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6  col-xs-6">
-                        <div class="hover-overlay">
-                            <img alt="Pastor Joe Jones" src="images/boldmen/Pastor_Jones.png" title="Pastor Joe Jones" class="fluid-width">
-                            <div class="overlay background-90-b">
-                                <div>
-                                    <div class="separator-small"></div>
-                                    <p class="text-center">
-                                        <a target="_blank" href="https://shieldoffaithbaptist.com/"><i class="fa fa-globe heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.facebook.com/Shield-of-Faith-Baptist-Church-Boise-324587301456794/"><i class="fa fa-facebook heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UC1TMxIjRgPJhJ0JYb8FWgeQ"><i class="fa fa-youtube heading-b"></i>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="caption">
-                            <p>
-                                <span class="title">Pastor Joe Jones</span>
-                                <br />
-                                <span class="highlight">Shield of Faith Baptist Church</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6  col-xs-6">
-                        <div class="hover-overlay">
-                            <img alt="Brother Matt Powell" src="images/boldmen/Bro_Powell.png" title="Brother Matt Powell" class="fluid-width">
-                            <div class="overlay background-90-b">
-                                <div>
-                                    <div class="separator-small"></div>
-                                    <p class="text-center">
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCUFgmArK_ljP52HJLBmMoQg"><i class="fa fa-youtube heading-b"></i>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="caption">
-                            <p>
-                                <span class="title">Brother Matt Powell</span>
-                                <br />
-                                <span class="highlight">Way of Truth</span>
-                            </p>
-                        </div>
-                    </div>
+
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
                             <img alt="Brother Ben Naim" src="images/boldmen/Bro_Naim.png" title="Brother Ben Naim" class="fluid-width">
@@ -575,16 +455,12 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
-                            <img alt="Deacon Corbin Ressl" src="images/boldmen/Deacon_Ressl.png" title="Deacon Corbin Ressl" class="fluid-width">
+                            <img alt="Pastor Corbin Ressl" src="images/boldmen/Deacon_Ressl.png" title="Pastor Corbin Ressl" class="fluid-width">
                             <div class="overlay background-90-b">
                                 <div>
                                     <div class="separator-small"></div>
                                     <p class="text-center">
-                                        <a target="_blank" href="https://www.faithfulwordtucson.com/"><i class="fa fa-globe heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.facebook.com/fwbctucson/"><i class="fa fa-facebook heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/channel/UCG28Z-3UD3WHoAcUJGqM7DA"><i class="fa fa-youtube heading-b"></i>
+                                        <a target="_blank" href="https://www.youtube.com/@straightpaths1611"><i class="fa fa-youtube heading-b"></i>
                                         </a>
                                     </p>
                                 </div>
@@ -592,35 +468,13 @@
                         </div>
                         <div class="caption">
                             <p>
-                                <span class="title">Deacon Corbin Ressl</span>
+                                <span class="title">Pastor Corbin Ressl</span>
                                 <br />
-                                <span class="highlight">Faithful Word Baptist Church Tuscon</span>
+                                <span class="highlight">Straight Paths Baptist Church</span>
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6  col-xs-6">
-                        <div class="hover-overlay">
-                            <img alt="Brother Jared Pozarnsky" src="images/boldmen/Pastor_Pozarnsky.png" title="Pastor Jared Pozarnsky" class="fluid-width">
-                            <div class="overlay background-90-b">
-                                <div>
-                                    <div class="separator-small"></div>
-                                    <p class="text-center">
-                                        <a target="_blank" href="https://holdfastbaptist.com/"><i class="fa fa-globe heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/c/holdfastbaptistchurch"><i class="fa fa-youtube heading-b"></i>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="caption">
-                            <p>
-                                <span class="title">Pastor Jared Pozarnsky</span>
-                                <br />
-                                <span class="highlight">Hold Fast Baptist Church</span>
-                            </p>
-                        </div>
-                    </div>
+
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
                             <img alt="Pastor Matthew Stucky" src="images/boldmen/Bro_Stucky.png" title="Pastor Matthew Stucky" class="fluid-width">
@@ -674,8 +528,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-3 col-sm-6  col-xs-6">
                         <div class="hover-overlay">
                             <img alt="Brother Raymond Cooper" src="images/boldmen/Bro_Cooper.png" title="Brother Raymond Cooper" class="fluid-width">
@@ -695,55 +547,58 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6  col-xs-6">
-                        <div class="hover-overlay">
-                            <img alt="Brother David Kiefer" src="images/boldmen/Bro_Kiefer.png" title="Brother David Kiefer" class="fluid-width">
-                            <div class="overlay background-90-b">
-                                <div>
-                                    <div class="separator-small"></div>
-                                    <p class="text-center">
-                                    </p>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6  col-xs-6">
+                            <div class="hover-overlay">
+                                <img alt="Brother David Kiefer" src="images/boldmen/Bro_Kiefer.png" title="Brother David Kiefer" class="fluid-width">
+                                <div class="overlay background-90-b">
+                                    <div>
+                                        <div class="separator-small"></div>
+                                        <p class="text-center">
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="caption">
-                            <p>
-                                <span class="title">brother david kiefer</span>
-                                <br />
-                                <span class="highlight">Faithful Word Baptist Church</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6  col-xs-6">
-                        <div class="hover-overlay">
-                            <img alt="Pastor Ian Taverner" src="https://allthepreaching.com/images/boldmen/Pastor_Taverner.png" title="Pastor Ian Taverner" class="fluid-width">
-                            <div class="overlay background-90-b">
-                                <div>
-                                    <div class="separator-small"></div>
-                                    <p class="text-center">
-                                        <a target="_blank" href="https://rumble.com/c/STBCUK"><i class="fa fa-globe heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.youtube.com/@STBCUK"><i class="fa fa-youtube heading-b"></i></a>
-                                        <a target="_blank" href="https://www.stbc.uk/"><i class="fa fa-globe heading-b"></i>
-                                        </a>
-                                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100082983158600"><i class="fa fa-facebook heading-b"></i>
-                                        </a>
-                                    </p>
-                                </div>
+                            <div class="caption">
+                                <p>
+                                    <span class="title">brother david kiefer</span>
+                                    <br />
+                                    <span class="highlight">Faithful Word Baptist Church</span>
+                                </p>
                             </div>
                         </div>
-                        <div class="caption">
-                            <p>
-                                <span class="title">Pastor Ian Taverner</span>
-                                <br />
-                                <span class="highlight">Strong Tower Baptist Church</span>
-                            </p>
+                        <div class="col-md-3 col-sm-6  col-xs-6">
+                            <div class="hover-overlay">
+                                <img alt="Pastor Ian Taverner" src="https://allthepreaching.com/images/boldmen/Pastor_Taverner.png" title="Pastor Ian Taverner" class="fluid-width">
+                                <div class="overlay background-90-b">
+                                    <div>
+                                        <div class="separator-small"></div>
+                                        <p class="text-center">
+                                            <a target="_blank" href="https://rumble.com/c/STBCUK"><i class="fa fa-globe heading-b"></i>
+                                            </a>
+                                            <a target="_blank" href="https://www.youtube.com/@STBCUK"><i class="fa fa-youtube heading-b"></i></a>
+                                            <a target="_blank" href="https://www.stbc.uk/"><i class="fa fa-globe heading-b"></i>
+                                            </a>
+                                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100082983158600"><i class="fa fa-facebook heading-b"></i>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    <span class="title">Pastor Ian Taverner</span>
+                                    <br />
+                                    <span class="highlight">Strong Tower Baptist Church</span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 
 <!-- we are section -->

@@ -28,3 +28,6 @@ awstatsicons
 includes/upload/csv/archive/*.csv
 includes/upload/csv/error/*.csv
 includes/upload/csv/*.csv
+cgi-bin/php8.0.cgi
+.gitignore
+cgi-bin/php8.1.cgi

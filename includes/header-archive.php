@@ -179,21 +179,13 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
                             <li><a target="_blank" href="http://faithfulwordbaptist.org/">Pastor Steven Anderson of Faithful Word Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/1soTpoNKwUtYVChm9">Tempe, AZ</a></li>
                             <li><a target="_blank" href="https://veritybaptist.com/">Pastor Roger Jimenez of Verity Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/rk6DToP6Q5Ga4C2dA">Sacramento, CA</a></li>
                             <li><a target="_blank" href="https://stedfastbaptistkjv.org/">Pastor Jonathan Shelley of Stedfast Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/hY9v3Q1WZDDo7vYF8">Hurst, TX</a></li>
-                            <li><a target="_blank" href="http://strongholdbaptist.church/">Pastor Dave Berzins of Stronghold Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/b4B6Pc1mR7eWfzKn9">Norcross, GA</a></li>
                             <li><a target="_blank" href="http://surefoundationbaptist.com/">Pastor Aaron Thompson of Sure Foundation Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/xxWceyQreua4UCCp6">Vancouver, WA</a></li>
-                            <li><a target="_blank" href="https://mountainbaptist.org/">Pastor Jason Robinson of Mountain Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/sRUYCpMC6BuVce2W7">Fairmont, WV</a></li>
                             <li><a target="_blank" href="https://www.fwbcla.org/">Pastor Bruce Mejia of First Works Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/gwH4AR2amLCZWEQy5">El Monte, CA</a></li>
-                            <li><a target="_blank" href="https://shieldoffaithbaptist.com/">Pastor Joe Jones of Shield of Faith Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/uVak7sBHRvHo7teTA">Boise, ID</a></li>
-                            <li><a target="_blank" href="https://holdfastbaptist.com/">Pastor Jared Pozarnsky Hold Fast Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/P22giCnn6DV6HPoG8">Fresno, CA</a></li>
                             <li><a target="_blank" href="https://blessedhopebaptistchurch.org.au/">Pastor Kevin Sepulveda Blessed Hope Baptist Church & New Life Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/9YuM5JNKzU3rCHrQ6">NSW, AU</a></li>
                             <li><a target="_blank" href="http://veritybaptistmanila.com/index.html">Pastor Matthew Stucky Verity Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/mzjG3QgQk16V5wtN8">Manila, Philippines</a></li>
                             <li><a target="_blank" href="https://www.stbc.uk/">Pastor Ian Taverner Strong Tower Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/mzjG3QgQk16V5wtN8">Southend-on-Sea, UK</a></li>
                             <li><a target="_blank" href="https://www.kevinkjv.com">Brother Kevin Roe of KevinKJV.com</a></li>
-                            <li><a target="_blank" href="https://bannedpreaching.com/">Brother Thomas Coletto of BannedPreaching.com</a></li>
-                            <li><a target="_blank" href="https://framingtheworld.com/">Brother Paul Wittenberger of FramingTheWorld.com</a></li>
                             <li><a target="_blank" href="https://benthebaptistkjv.wordpress.com/">Brother Ben Naim of BenTheBaptistKJV.com</a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UCUFgmArK_ljP52HJLBmMoQg">Brother Matt Powell of MattPowellOfficial on Youtube</a></li>
-                            <li><a target="_blank" href="https://www.mid-michigan-soul-winners.com/">Brother Spencer Shaw of Mid Michigan Soulwinners</a></li>
                             <li><a target="_blank" href="http://www.godresource.com/">GodResource.com</a></li>
                             <li><a target="_blank" href="https://www.goodworksraiment.com//">Good Works Raiment</a></li>
                             <li><a target="_blank" href="https://servisflamezone.org/">ServisFlameZone.org</a></li>
