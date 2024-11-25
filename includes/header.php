@@ -163,8 +163,6 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="./archive.php" class="hover-effect">Videos</a></li>
-                    <li><a href="#contact" class="hover-effect">Contact</a></li>
-                    <li class="hidden-xs"><a @click="isTop = !isTop" class="menu-toggle ext-nav-toggle" data-target=".ext-nav" :href="isTop ? '#top' : '#footer'"><span></span></a></li>
                 </ul>
             </div>
 
@@ -177,46 +175,6 @@ $cnt = "SELECT COUNT(*) AS count FROM `videos`";
 
     <!--    right side dot scroll section   -->
     <ul id="dot-scroll" class="colors-e background-solid"></ul>
-
-    <!--    special thanks section          -->
-    <div class="overlay-window credits-overlay colors-g background-95-g">
-        <div class="overlay-control background-90-b">
-            <a class="cross" href="#"></a>
-        </div>
-        <div class="overlay-view">
-            <div class="content-container">
-                <h3>Special Thanks To:</h3>
-                <ul>
-                    <li>
-                        Everyone below for their inspiration and contribution of materials!
-                        <ul>
-                            <li><a target="_blank" href="http://faithfulwordbaptist.org/">Pastor Steven Anderson of Faithful Word Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/1soTpoNKwUtYVChm9">Tempe, AZ</a></li>
-                            <li><a target="_blank" href="https://veritybaptist.com/">Pastor Roger Jimenez of Verity Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/rk6DToP6Q5Ga4C2dA">Sacramento, CA</a></li>
-                            <li><a target="_blank" href="https://stedfastbaptistkjv.org/">Pastor Jonathan Shelley of Stedfast Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/hY9v3Q1WZDDo7vYF8">Hurst, TX</a></li>
-                            <li><a target="_blank" href="http://strongholdbaptist.church/">Pastor Dave Berzins of Stronghold Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/b4B6Pc1mR7eWfzKn9">Norcross, GA</a></li>
-                            <li><a target="_blank" href="http://surefoundationbaptist.com/">Pastor Aaron Thompson of Sure Foundation Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/xxWceyQreua4UCCp6">Vancouver, WA</a></li>
-                            <li><a target="_blank" href="https://mountainbaptist.org/">Pastor Jason Robinson of Mountain Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/sRUYCpMC6BuVce2W7">Fairmont, WV</a></li>
-                            <li><a target="_blank" href="https://www.fwbcla.org/">Pastor Bruce Mejia of First Works Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/gwH4AR2amLCZWEQy5">El Monte, CA</a></li>
-                            <li><a target="_blank" href="https://shieldoffaithbaptist.com/">Pastor Joe Jones of Shield of Faith Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/uVak7sBHRvHo7teTA">Boise, ID</a></li>
-                            <li><a target="_blank" href="https://holdfastbaptist.com/">Pastor Jared Pozarnsky Hold Fast Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/P22giCnn6DV6HPoG8">Fresno, CA</a></li>
-                            <li><a target="_blank" href="https://blessedhopebaptistchurch.org.au/">Pastor Kevin Sepulveda Blessed Hope Baptist Church & New Life Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/9YuM5JNKzU3rCHrQ6">NSW, AU</a></li>
-                            <li><a target="_blank" href="http://veritybaptistmanila.com/index.html">Brother Matthew Stucky Verity Baptist Church</a>, <a target="_blank" href="https://goo.gl/maps/mzjG3QgQk16V5wtN8">Manila, Philippines</a></li>
-                            <li><a target="_blank" href="https://www.kevinkjv.com">Brother Kevin Roe of KevinKJV.com</a></li>
-                            <li><a target="_blank" href="https://bannedpreaching.com/">Brother Thomas Coletto of BannedPreaching.com</a></li>
-                            <li><a target="_blank" href="https://framingtheworld.com/">Brother Paul Wittenberger of FramingTheWorld.com</a></li>
-                            <li><a target="_blank" href="https://benthebaptistkjv.wordpress.com/">Brother Ben Naim of BenTheBaptistKJV.com</a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UCUFgmArK_ljP52HJLBmMoQg">Brother Matt Powell of MattPowellOfficial on Youtube</a></li>
-                            <li><a target="_blank" href="https://www.mid-michigan-soul-winners.com/">Brother Spencer Shaw of Mid Michigan Soulwinners</a></li>
-                            <li><a target="_blank" href="http://www.godresource.com/">GodResource.com</a></li>
-                            <li><a target="_blank" href="https://www.goodworksraiment.com//">Good Works Raiment</a></li>
-                            <li><a target="_blank" href="https://servisflamezone.org/">ServisFlameZone.org</a></li>
-                            <li>All the supporters on Youtube. Keep on uploading!</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
     <!-- Loader -->
     <div class="gate colors-e background-solid">

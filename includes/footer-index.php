@@ -19,24 +19,13 @@
                                 </b>
                             </p>
                             <p class="big-font">
-                                <a target="_blank" href="https://www.facebook.com/allthepreaching">
-                                    <span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-facebook fa-stack-1x text-background"></i></span>
-                                </a>
-                                <a target="_blank" href="https://www.youtube.com/channel/UCiUIhW4qAvrjaHSEue0ANQQ">
-                                    <span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-youtube fa-stack-1x text-background"></i></span>
-                                </a>
                                 <a target="_blank" href="https://bmc.link/allthepreaching">
                                     <span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-buymeacoffee fa-stack-1x text-background"></i></span>
-                                </a>
-                                <a target="_blank" href="https://www.instagram.com/allthepreaching/">
-                                    <span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-instagram fa-stack-1x text-background"></i></span>
-                                </a>
-                                <a target="_blank" href="https://github.com/allthepreaching">
-                                    <span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-github fa-stack-1x text-background"></i></span>
                                 </a>
                             </p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -62,20 +51,6 @@
                     SPECIAL THANKS HERE
                 </a>
                 <br><br>
-                <p class="social-links">
-                    <a target="_blank" href="https://www.facebook.com/allthepreaching">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCKKySe04GRMiZBHw9hf_uJA">
-                        <i class="fa fa-youtube"></i>
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/allthepreaching/">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                    <a target="_blank" href="https://github.com/allthepreaching">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </p>
             </div>
             <div class="col-md-3">
                 <h5>Additional Links</h5>
@@ -83,12 +58,7 @@
                     <li><a target="_blank" href="http://www.romansrd.com">Romans Road App</a></li>
                     <li><a target="_blank" href="https://www.faithfulwordbaptist.org/page5.html">The Preaching</a></li>
                     <li><a target="_blank" href="https://www.kevinkjv.com/">Kevin KJV</a></li>
-                    <li><a target="_blank" href="https://bannedpreaching.com/">Banned Preaching</a></li>
-                    <li><a target="_blank" href="https://servisflamezone.org/">Servis Flame Zone</a></li>
-                    <li><a target="_blank" href="https://framingtheworld.com/">Framing The World</a></li>
                     <li><a target="_blank" href="https://benthebaptistkjv.wordpress.com/">Ben The Baptist</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/channel/UCUFgmArK_ljP52HJLBmMoQg">Matt Powell Official</a></li>
-                    <li><a target="_blank" href="https://www.mid-michigan-soul-winners.com/">Mid Michigan Soulwinners</a></li>
                     <li><a target="_blank" href="http://www.godresource.com/">God Resource</a></li>
                     <li><a target="_blank" href="https://goodworksraiment.com/">Good Works Raiment</a></li>
                     <li><a target="_blank" href="http://militarygetsaved.tripod.com/findchurch.html">Find a Local Church</a></li>
