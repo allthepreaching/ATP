@@ -21,7 +21,7 @@ if (isset($_GET['path'])) {
     // Get the video ID from the URL
     $file_path_no_extension = substr(urldecode($_GET['path']), 0, strrpos(urldecode($_GET['path']), '.'));
     $vid_url = 'https://www.kjv1611only.com/video/' . $file_path_no_extension . '.mp4';
-    $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path='
+    $vtt_to_txt_url = 'https://www.kjv1611only.com/'
         . urlencode('video/' .  $file_path_no_extension . '.vtt');
     $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
     $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
@@ -43,8 +43,7 @@ if (isset($_GET['path'])) {
     if ($query->fetch()) {
         $subtitle_url = str_replace('.mp4', '.vtt', $vid_url);
         $thumb_url = str_replace('.vtt', '.jpg', $subtitle_url);
-        $vtt_to_txt_url = 'https://www.kjv1611only.com/vtt_to_txt.php?path='
-            . urlencode(str_replace("https://www.kjv1611only.com/", "", $subtitle_url));
+        $vtt_to_txt_url = $subtitle_url;
     } else {
         echo "No results found";
     }

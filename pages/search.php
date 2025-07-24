@@ -12,7 +12,7 @@ include_once '../includes/header.php';
         if (isset($_GET['submit-search'])) {
 
             // Define the base URL
-            $base_url = "http://localhost:8081/api/v1/search/exact";
+            $base_url = "https://search.allthepreaching.com/api/v1/search/exact";
 
             // Define the query parameters
             $searchQuery = $_GET['advanced-search']; //right search bar
