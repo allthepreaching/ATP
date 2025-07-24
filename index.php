@@ -947,4 +947,4 @@
     </div>
 </section>
 
-<?php include "includes/footer-index.php"; ?>
+<?php include_once "includes/footer-index.php"; ?>

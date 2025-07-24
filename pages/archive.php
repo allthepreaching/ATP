@@ -512,9 +512,9 @@
                 </a>
             </div>
             <div class="col-md-3">
-                <a href="">
+                <a href="#fwbcmc2024">
                     <h5>
-
+2024
                     </h5>
                 </a>
             </div>
@@ -2491,6 +2491,94 @@
                 $countOutput = $row['count'];
             }
             $codeQuery = $conn->query("SELECT * FROM videos WHERE vid_category = 'fwbcmc2023' ORDER BY name ASC");
+            $codes = $codeQuery->fetch_all(MYSQLI_ASSOC);
+            $codeCount = count($codes);
+            $base = floor($codeCount / COLUMNS);
+            $remainder = $codeCount % COLUMNS;
+            $chunks = [];
+            for ($start = 0; $start < $codeCount; $start += $length) {
+                $length = $base + ($remainder-- > 0 ? 1 : 0);
+                $chunks[] = array_slice($codes, $start, $length);
+            }
+            ?>
+
+            <!-- COLUMN 1 -->
+            <div class="col-md-3">
+                <ul class="simple">
+                    <?php foreach ($chunks[0] as $data) { ?>
+                        <li>
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div class="col-md-3">
+                <ul class="simple">
+                    <?php foreach ($chunks[1] as $data) { ?>
+                        <li>
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+
+            <!-- COLUMN 3 -->
+            <div class="col-md-3">
+                <ul class="simple">
+                    <?php foreach ($chunks[2] as $data) { ?>
+                        <li>
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+
+            <!-- COLUMN 4 -->
+            <div class="col-md-3">
+                <ul class="simple">
+                    <?php foreach ($chunks[3] as $data) { ?>
+                        <li>
+                            <a href="video.php?id=<?= $data['id']; ?>" title="'<?= $data['vid_title']; ?>'">
+                                <?= $data['vid_title']; ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+                    
+<!--        preaching section fwbc missions conference 2024      -->
+<section class="colors-g page-transition non-preloading" id="fwbcmc2024">
+    <div class="container" data-animation="fadeInDown">
+        <br><br><br><br><br><br>
+        <hr>
+        <h2 class="highlight">
+            fwbc missions conference<br>2024
+        </h2>
+        <h6>
+            <a href="#fwbcpc" class="hover-effect">
+                Back to <span class="highlight">fwbc preaching class Menu</span>
+            </a>
+        </h6>
+        <hr>
+        <div class="row">
+            <?php
+            $countQuery = $cnt;
+            $countResult = mysqli_query($conn, $countQuery);
+            while ($row = mysqli_fetch_assoc($countResult)) {
+                $countOutput = $row['count'];
+            }
+            $codeQuery = $conn->query("SELECT * FROM videos WHERE vid_category = 'fwbcmc2024' ORDER BY name ASC");
             $codes = $codeQuery->fetch_all(MYSQLI_ASSOC);
             $codeCount = count($codes);
             $base = floor($codeCount / COLUMNS);
