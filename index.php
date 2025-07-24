@@ -14,11 +14,7 @@
                     ||&nbsp;every <span class="highlight"> video&nbsp;</span>
                     ||&nbsp;all <span class="highlight"> nifb </span>
                 </p>
-                <div class="social-media">
-                    <a target="_blank" style="margin-right: 8px" href="https://bmc.link/allthepreaching">
-                        <img src="images/icons/iconBMC.png" alt="Buy Me Coffee Icon Link" width="60px">
-                    </a>
-                </div>
+
                 <a href="pages/new.php">
                     <h3 class="new-content-title">
                         click here for the <span class="highlight"> newest content</span>
@@ -34,11 +30,7 @@
                         <span>interested in bible laws? check out our new project here: <span class="highlight">allthelaws.com.</span></span>
                     </h6>
                 </a>
-                <a target="_blank" href="https://bmc.link/allthepreaching">
-                    <h6>
-                        <span>want to help us to keep developing this site? <span class="highlight">Click here to buy us a coffee</span>!</span>
-                    </h6>
-                </a>
+
                 <a target="_blank" href="https://flipbookpdf.net/web/site/8073761ea240888c8d70d8703b267fb30e9f0538202208.pdf.html">
                     <h6>
                         <span>download our soulwinning booklet <span class="highlight">click here</span>!</span>
