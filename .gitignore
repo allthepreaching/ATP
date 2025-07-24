@@ -30,9 +30,14 @@ includes/upload/csv/error/*.csv
 includes/upload/csv/*.csv
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cgi-bin/php8.0.cgi
 .gitignore
 cgi-bin/php8.1.cgi
+=======
+.vscode/settings.json
+.vscode/settings.json
+>>>>>>> 52210d6 (Changes)
 =======
 .vscode/settings.json
 .vscode/settings.json
